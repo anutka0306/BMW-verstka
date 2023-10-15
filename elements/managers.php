@@ -1,24 +1,41 @@
 <div class="managers">
     <p class="title-7">Сотрудники отвечающие за отдел BMW</p>
-    <div class="wrapper-5">
-        <img class="arrow-left" src="images/arrow-left.png" alt="" width="14" height="24" />
-        <img class="arrow-right" src="images/arrow-right.png" alt="" width="14" height="24" />
-        <div class="manager-04">
-            <p class="text-73">Кащук Сергей</p>
-            <p class="text-74">Руководитель сервиса</p>
+    <div class="wrapper-5 managers-slider">
+        <div class="manager-slider-item">
+            <img src="images/manager1.png" alt="manager 1">
+            <div class="manager-slider-title">
+                <p class="text-73">Шайхутдинов Ильдар</p>
+                <p class="text-74">Мастер-приёмщик</p>
+            </div>
         </div>
-        <div class="manager-03">
-            <p class="text-75">Антошкин Николай</p>
-            <p class="text-76">Мастер-приёмщик</p>
+        <div class="manager-slider-item">
+            <img src="images/manager2.png" alt="manager 2">
+            <div class="manager-slider-title">
+                <p class="text-73">Садовой Василий</p>
+                <p class="text-74">Менеджер по подбору запчастей</p>
+            </div>
         </div>
-        <div class="manager-02">
-            <p class="text-77">Садовой Василий</p>
-            <p class="text-78">Менеджер по подбору запчастей</p>
+        <div class="manager-slider-item">
+            <img src="images/manager3.png" alt="manager 3">
+            <div class="manager-slider-title">
+                <p class="text-73">Антошкин Николай</p>
+                <p class="text-74">Мастер-приёмщик</p>
+            </div>
         </div>
-        <div class="manager-01">
-            <p class="text-79">Шайхутдинов Ильдар</p>
-            <p class="text-80">Мастер-приёмщик</p>
+        <div class="manager-slider-item">
+            <img src="images/manager4.png" alt="manager 4">
+            <div class="manager-slider-title">
+                <p class="text-73">Кащук Сергей</p>
+                <p class="text-74">Руководитель сервиса</p>
+            </div>
         </div>
-        <img class="delete-replace" src="images/delete-replace.png" alt="" width="1063" height="226" />
+
+        <div class="manager-slider-item">
+            <img src="images/manager1.png" alt="manager 1">
+            <div class="manager-slider-title">
+                <p class="text-73">Шайхутдинов Ильдар</p>
+                <p class="text-74">Мастер-приёмщик</p>
+            </div>
+        </div>
     </div>
 </div>

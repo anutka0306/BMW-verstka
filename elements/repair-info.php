@@ -1,10 +1,10 @@
 <div class="repair-info row">
-    <div class="row container" >
-        <div class="col-md-5 d-none d-md-block">
+    <div class="row container">
+        <div class="col-md-6 d-none d-md-block">
             <div class="engine-bmw-bg"></div>
             <img class="engine-bmw" src="images/engine-bmw.png" alt="" width="446" height="425" />
         </div>
-        <div class="col-md-7">
+        <div class="col-md-6">
             <div class="ri-title">
                 <span>Ремонт БМВ в Санкт-Петербурге</span>
                 <div class="title-after"></div>

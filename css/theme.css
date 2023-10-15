@@ -345,10 +345,12 @@ body {
   margin: 2px 12px 0 0;
 }
 .text-3 {
-  color: #ffffff;
-  font-family: 'Museo Sans Cyrl', sans-serif;
-  font-size: 11.98926px;
-  line-height: 1.2;
+    color: #FFF;
+    font-family: Museo Sans Cyrl;
+    font-size: 12.104px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .k20 {
   float: left;
@@ -378,10 +380,12 @@ body {
   margin: 2px 11px 0 0;
 }
 .text-5 {
-  color: #ffffff;
-  font-family: 'Museo Sans Cyrl', sans-serif;
-  font-size: 11.98926px;
-  line-height: 1.2;
+    color: #FFF;
+    font-family: Museo Sans Cyrl;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .header-slider {
   margin: -3px 0 0;
@@ -665,6 +669,12 @@ select::-ms-expand { display: none; }
   background: white;
   padding: 50px 0;
 }
+.repair-info .container {
+    padding-right: 5%;
+}
+.repair-info .container .col-md-6:first-of-type{
+    padding-left: 0;
+}
 
 .engine-bmw-bg {
   height: 80%;
@@ -766,10 +776,11 @@ select::-ms-expand { display: none; }
 .description-white {
   margin: 11px auto 0;
   color: #ffffff;
-  font-size: 21.9803px;
+  font-size: 22px;
   font-weight: 500;
-  line-height: 29.97314px;
+  line-height: 30px;
   text-align: center;
+    width: 70%;
 }
 .ww-body-items {
   margin: 24px auto 0;
@@ -798,7 +809,7 @@ select::-ms-expand { display: none; }
 }
 .wwbi-description .text {
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 700;
     color: #525252;
 }
 
@@ -831,15 +842,18 @@ select::-ms-expand { display: none; }
 }
 .text-24 {
   font-family: Dreamcast, serif;
-  font-size: 35.96777px;
+  font-size: 36px;
+    font-weight: 500;
   text-align: center;
+    color: #444444;
 }
 .short-autocenter-text {
   margin: 22px auto 0;
-  font-size: 20.9812px;
+  font-size: 21px;
   font-weight: 500;
-  line-height: 28.97403px;
+  line-height: 29px;
   text-align: center;
+    color: #444444;
 }
 .short-autocenter-gallery {
   padding-top: 40px;
@@ -1131,8 +1145,13 @@ select::-ms-expand { display: none; }
   display:flex;
 }
 .front-car {
-  float: left;
-  margin: 161px 68px 0 0;
+    display: flex;
+    align-items: center;
+}
+.front-car img {
+    width: 100%;
+    height: auto;
+    margin-left: -25%;
 }
 .col-8 {
   float: left;
@@ -1198,28 +1217,120 @@ select::-ms-expand { display: none; }
   text-align: center;
 }
 .chess-repairing-and-improving {
-  display: table;
+    width: 100%;
+    margin-top: 40px;
+  /*display: table;
   margin: 41px auto 0;
-  position: relative;
+  position: relative;*/
 }
+.chess-repairing-and-improving_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.chess-repairing-and-improving_row .chess-repairing-and-improving_row_col:first-of-type{
+    margin-right: 22px;
+}
+.chess-repairing-and-improving_row_col {
+    height: 380px;
+    background-color: #f6f6f6;
+    padding: 62px 69px 60px 39px;
+}
+.chess-repairing-and-improving_row_col_40 {
+    width: 40%;
+}
+.chess-repairing-and-improving_row_col_60 {
+    width: 60%;
+}
+.chess-repairing-and-improving_row_col_title {
+    font-family: 'DINPro';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.chess-repairing-and-improving_row_col_description {
+    font-family: 'DINPro';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.chess-repairing-and-improving_row_col__img1 img {
+    width: 60%;
+    margin-top: -80px;
+}
+.chess-repairing-and-improving_row_col__img2 img {
+    /*margin-left: -127px;
+    width: 64%;
+    margin-top: -100px;*/
+}
+.chess-repairing-and-improving_row_col__img2 .col-20_wrapper {
+    background-image: url("../images/48178-6-lubricant-oil-pho.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 70%;
+    margin-left: -35px;
+    height: 260px;
+    margin-top: -60px;
+    justify-content: flex-end;
+}
+.chess-repairing-and-improving_row_col__img3 .col-20_wrapper {
+    background-image: url("../images/computer-diagnostic.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 260px;
+    margin-top: -60px;
+    justify-content: flex-end;
+}
+
+.chess-repairing-and-improving_row_col__img4 .col-20_wrapper {
+    background-image: url("../images/wheel.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    height: 260px;
+    margin-top: -60px;
+    justify-content: flex-end;
+}
+
+.chess-repairing-and-improving_row_col__img5 .col-20_wrapper {
+    background-image: url("../images/kuzovnoy-remont.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 70%;
+    margin-left: -35px;
+    height: 260px;
+    margin-top: -60px;
+    justify-content: flex-end;
+}
+
 .row-5 {
   position: relative;
-  width: 1000px;
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .group-2 {
   float: left;
   margin: 31px 22px 0 0;
   min-height: 380px;
-  padding: 63px 38px;
+  padding: 62px 69px 75px 41px;
   position: relative;
-  width: 404px;
+  width: 40%;
   background: #f6f6f6;
 }
 .remont-tehnicheskogo-i-elektrooborudovaniya {
-  margin: 0 -25px 20px -38px;
-  font-size: 25.97672px;
-  font-weight: bold;
-  line-height: 35.96777px;
+    font-family: 'DINPro';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .rectangle-2258 {
   float: left;
@@ -1234,46 +1345,52 @@ select::-ms-expand { display: none; }
 }
 .group-3 {
   float: left;
-  height: 411px;
+  height: 380px;
   position: relative;
-  width: 574px;
+  width: 60%;
 }
 .col-20 {
   left: 50%;
   min-height: 380px;
   padding: 27px 43px 47px;
-  position: absolute;
+  position: relative;
   top: 31px;
   width: 574px;
   background: #f6f6f6;
   margin-left: -287px;
 }
+.col-20_wrapper {
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+}
 .text-61 {
-  margin: 0 0 0 313px;
+  /*margin: 0 0 0 313px;*/
   color: #1c69d4;
-  font-size: 154.8612px;
+  font-size: 155px;
   font-weight: 900;
+    font-family: 'DINPro';
 }
 .row-12 {
   margin: 107px 0 0;
   position: relative;
 }
 .rectangle-2259 {
-  float: left;
-  height: 41px;
+  height: auto;
   margin: 4px 15px 0 0;
   width: 3px;
   background: #1c69d4;
 }
 .text-62 {
-  width: 335px;
+  width: 85%;
   font-weight: bold;
   line-height: 24.97761px;
 }
 .bmw-n57-bez-fona-3 {
   left: 50%;
   position: absolute;
-  top: 0;
+  top: -35px;
   margin-left: -234px;
 }
 .row-20 {
@@ -1541,9 +1658,12 @@ select::-ms-expand { display: none; }
   width: 26px;
 }
 .maker {
-  padding: 11px 0 12px;
-  position: relative;
   background: #1c69d4;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .arrow-1 {
   display: block;
@@ -1601,15 +1721,17 @@ select::-ms-expand { display: none; }
 }
 .text-71 {
   float: left;
-  width: 884px;
-  font-size: 19.98209px;
+  width: 100%;
+  font-size: 20px;
+    line-height: 40px;
   font-weight: 500;
-  line-height: 39.96418px;
+    margin-left: 30px;
+    margin-bottom: 0;
 }
 .blockqote {
   margin: 29px auto 0;
   position: relative;
-  width: 999px;
+  width: 100%;
 }
 .rectangle-2279 {
   float: left;
@@ -2056,6 +2178,41 @@ select::-ms-expand { display: none; }
   margin: 54px auto 0;
   position: relative;
 }
+.manager-slider-item {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+.manager-slider-item .manager-slider-title {
+    background: #1C69D4;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    width: 170px;
+}
+.managers-slider .slick-next:before,
+.cliente-reviews-slick .slick-next:before
+{
+    display: block;
+    content: '';
+    width: 13px;
+    height: 21px;
+    background-image: url(../images/arrow-right-blue.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.managers-slider .slick-prev:before,
+.cliente-reviews-slick .slick-prev:before
+{
+    display: block;
+    content: '';
+    width: 13px;
+    height: 21px;
+    background-image: url(../images/arrow-left-blue.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 .title-7 {
   font-family: Dreamcast, serif;
   font-size: 35.96777px;
@@ -2188,6 +2345,37 @@ select::-ms-expand { display: none; }
 .l-constrained-9 {
   margin: 0 auto;
   position: relative;
+}
+.l-constrained-9 .nav-tabs {
+    float: none;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+.l-constrained-9 .nav-tabs .nav-item {
+    text-align: center;
+    font-family: 'DINPro';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    display: flex;
+}
+.l-constrained-9 .nav-tabs .nav-item a {
+    color: #FFF;
+    border: none;
+}
+.l-constrained-9 .nav-tabs .nav-item a.active,
+.l-constrained-9 .nav-tabs .nav-item a:hover,
+.l-constrained-9 .nav-tabs .nav-item a:focus,
+.l-constrained-9 .nav-tabs .nav-item a:focus-visible{
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #1C69D4;
+    outline: none;
 }
 .text-81 {
   color: #ffffff;
@@ -2325,6 +2513,24 @@ select::-ms-expand { display: none; }
   -webkit-box-shadow: 1.236068px 3.804226px 6px 0 rgba(0, 0, 0, 0.03);
   -moz-box-shadow: 1.236068px 3.804226px 6px 0 rgba(0, 0, 0, 0.03);
   box-shadow: 1.236068px 3.804226px 6px 0 rgba(0, 0, 0, 0.03); /*drop shadow*/
+}
+.cliente-reviews-slick__item {
+    display: flex !important;
+    justify-content: center;
+}
+.cliente-reviews-slick__item_wrapper {
+    width: 218px;
+    min-height: 281px;
+    padding: 22px 13px 26px;
+    position: relative;
+    border: 1px solid #f6f6f6; /*stroke*/
+    background: #ffffff;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /*Will not allow bg color to leak outside borders*/
+    -webkit-box-shadow: 1.236068px 3.804226px 6px 0 rgba(0, 0, 0, 0.03);
+    -moz-box-shadow: 1.236068px 3.804226px 6px 0 rgba(0, 0, 0, 0.03);
+    box-shadow: 1.236068px 3.804226px 6px 0 rgba(0, 0, 0, 0.03); /*drop shadow*/
 }
 .row-45 {
   margin: 0 0 0 1px;
@@ -2615,6 +2821,44 @@ select::-ms-expand { display: none; }
   display: table;
   margin: 0 auto;
   position: relative;
+}
+.promo1 {
+    background-image: url("../images/promo1-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    padding: 32px 0 53px 18px;
+}
+.promo__title {
+    color: #000;
+    font-family: 'DINPro';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.promo__price {
+    color: #1C69D4;
+    font-family: 'DINPro';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.promo__btn {
+    margin: 48px 0 0;
+    min-height: 33px;
+    padding: 0 7px;
+    position: relative;
+    width: 117px;
+    background: #1c69d4;
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
 }
 .title-8 {
   font-family: Dreamcast, serif;

@@ -21,15 +21,16 @@
                         <div class="quiz_content">
                             <div class="quiz_content-main col-md-9">
                                 <div class="quiz-slider">
-                                    <?
-                                    $quizCars = [1,2,3,4,5,6,7,8,9,10,11,12];
-                                    foreach($quizCars as $id) { ?>
+                                    <?php
+                                    $quizCars = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+                                    foreach($quizCars as $id) {
                                         echo '<div class="caption quiz-thumbnail" data-id="{$id}">
                                             <img src="images/model.png" alt="BMW" />
                                             <div class="h3"><span>BMW</span></div>
                                             <div class="quiz-model-desc-info">Е82<span>|</span>Е87<span>|</span>F20</div>
                                         </div>';
-                                    <? } ?>
+                                     } ?>
+
                                 </div>
                             </div>
                             <div class="quiz_content-push col-md-3">

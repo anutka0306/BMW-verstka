@@ -26,6 +26,7 @@
 
         <!-- Slick & Swiper -->
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
 
         
@@ -54,6 +55,9 @@
     <?php include 'elements/managers.php';?>
     <?php include 'elements/cliente-reviews.php';?>
     <?php include 'elements/l-unconstraind-2.php';?>
+    <?php include 'elements/price-list.php'; ?>
+    <?php include 'elements/question-form.php'; ?>
+    <?php include 'elements/contacts.php'; ?>
     <?php include 'elements/footer.php';?>
 </div>
 
@@ -207,6 +211,60 @@ $('.quiz-intro-slider').slick({
 	      }
 	    }
 	]
+});
+
+$('.managers-slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+});
+
+$('.cliente-reviews-slick1').slick({
+    dots: false,
+    autoplay: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+}).next();
+
+
+$('.cliente-reviews-slick2').slick({
+    dots: false,
+    autoplay: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+});
+
+$('.cliente-reviews-slick3').slick({
+    dots: false,
+    autoplay: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+});
+
+$('.cliente-reviews-slick4').slick({
+    dots: false,
+    autoplay: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+});
+
+$('.cliente-reviews-slick5').slick({
+    dots: false,
+    autoplay: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
 });
 
 </script>

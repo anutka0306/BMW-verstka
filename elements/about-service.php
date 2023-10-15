@@ -1,9 +1,9 @@
 <div class="about-service">
-    <div class="about-service-wrapp">
-        <div class="front-car d-sm-none d-md-block">
-            <img src="images/front-car.png" alt="" width="405" height="257" />
+    <div class="about-service-wrapp row">
+        <div class=" col-md-5 front-car">
+            <img src="images/front-car.png" alt="" />
         </div>
-        <div class="col-md-8">
+        <div class="col-md-7">
             <p class="title-white-2">Сервис БМВ в Санкт-Петербурге</p>
             <p class="text-59">
                 Несмотря на широкое разнообразие выбора автосервисов по ремонту БМВ, наша компания выделяется из обильного множества. Конечно же, вы зададитесь почему?<br />

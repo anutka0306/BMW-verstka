@@ -1,4 +1,91 @@
 <div class="l-unconstrained-2">
+    <div class="l-constrained-2 container">
+        <div class="">
+            <p class="title-8">Изучите наши актуальные акции</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="promo1">
+
+                        <p class="promo__price">0 ₽</p>
+                        <p class="promo__title">
+                            Замена свечей<br />
+                            зажигания
+                        </p>
+                        <div class="promo__btn">
+                            Записаться
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="col-5">
+                        <p class="sfo-2">0 ₽</p>
+                        <p class="txt-2">
+                            Замена<br />
+                            технических<br />
+                            жидкостей
+                        </p>
+                        <div class="btn-holder-5">
+                            Записаться
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="txt-3">
+                        Диагностика ходовой<br />
+                        части
+                    </p>
+                    <p class="sfo-3">БЕСПЛАТНО</p>
+                    <div class="btn-holder-6">
+                        Записаться
+                    </div>
+                    <img class="png-clipart-tire-car-suspension-peugeot-106-car-car-suspension1-1" src="images/png-clipart-tire-car-susp.png" alt="" width="376" height="304" />
+                </div>
+            </div>
+            <div class="col-12-2 group">
+                <div class="col-6-2">
+                    <p class="txt-4">
+                        Диагностика<br />
+                        двигателя
+                    </p>
+                    <img class="engine_png34-1" src="images/engine_png34_1.png" alt="" width="233" height="229" />
+                    <p class="sfo-4">БЕСПЛАТНО</p>
+                    <div class="btn-holder-7">
+                        Записаться
+                    </div>
+                </div>
+                <div class="col-3-4">
+                    <img class="_57-1" src="images/57_1.png" alt="" width="84" height="273" />
+                    <p class="txt-5">
+                        Замена<br />
+                        амортизаторов
+                    </p>
+                    <p class="sfo-5">0 ₽</p>
+                    <div class="btn-holder-8">
+                        Записаться
+                    </div>
+                </div>
+                <div class="col-3-5">
+                    <div class="col-4">
+                        <p class="sfo-6">0 ₽</p>
+                        <p class="txt-6">
+                            Замена колодок<br />
+                            или дисков
+                        </p>
+                        <p class="link-info">Стоимость</p>
+                    </div>
+                    <div class="btn-holder-9">
+                        Записаться
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--<div class="l-unconstrained-2">
     <div class="l-constrained-2">
         <div class="stocks">
             <p class="title-8">Изучите наши актуальные акции</p>
@@ -257,4 +344,4 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
