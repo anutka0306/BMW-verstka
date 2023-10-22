@@ -1,7 +1,7 @@
 <div class="contacts group">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 col-12 contacts__left">
                 <p class="kontakty-2">Контакты</p>
                 <div class="mt-5">
                     <div class="contacts__list_item">
@@ -101,7 +101,7 @@
                 </div>
             </div>
 
-            <div class="col-md-7">
+            <div class="col-md-7 col-12">
                 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6fea9ea9fcda30864cca8832dc4ba94a28396573ab7cb1956d717f9e90697df6&amp;width=100%25&amp;height=556&amp;lang=ru_RU&amp;scroll=true"></script>
             </div>
         </div>

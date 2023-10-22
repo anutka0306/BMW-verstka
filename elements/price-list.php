@@ -5,7 +5,7 @@
         </div>
     </div>
     <div class="row mt-5">
-        <div class="col-md-9">
+        <div class="col-md-9 col-9">
             <div class="rectangle-2323-holder">
                 Название услуги
             </div>
@@ -26,7 +26,7 @@
                 Техническое обслуживание
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-3">
             <div class="rectangle-2324"></div>
             <p class="text-113">от 600 Р</p>
             <div class="rectangle-2325-holder-2">

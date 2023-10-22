@@ -219,6 +219,17 @@ $('.managers-slider').slick({
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows:true,
+                dots: true
+            }
+        },
+    ]
 });
 
 $('.cliente-reviews-slick1').slick({
@@ -228,6 +239,17 @@ $('.cliente-reviews-slick1').slick({
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows:true,
+                dots: true
+            }
+        },
+    ]
 }).next();
 
 
@@ -238,7 +260,18 @@ $('.cliente-reviews-slick2').slick({
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
-});
+    responsive: [
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows:true,
+                dots: true
+            }
+        },
+    ]
+}).next();
 
 $('.cliente-reviews-slick3').slick({
     dots: false,
@@ -247,7 +280,18 @@ $('.cliente-reviews-slick3').slick({
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
-});
+    responsive: [
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows:true,
+                dots: true
+            }
+        },
+    ]
+}).next();
 
 $('.cliente-reviews-slick4').slick({
     dots: false,
@@ -256,7 +300,18 @@ $('.cliente-reviews-slick4').slick({
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
-});
+    responsive: [
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows:true,
+                dots: true
+            }
+        },
+    ]
+}).next();
 
 $('.cliente-reviews-slick5').slick({
     dots: false,
@@ -265,7 +320,18 @@ $('.cliente-reviews-slick5').slick({
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
-});
+    responsive: [
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows:true,
+                dots: true
+            }
+        },
+    ]
+}).next();
 
 </script>
 </body>
