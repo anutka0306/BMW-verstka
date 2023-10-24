@@ -4464,6 +4464,58 @@ ul.slick-dots {
     color: #1C69D4;
 }
 
+/* Modals */
+#recordNowModal .modal-content {
+    background: #444;
+    padding: 5% 10%;
+}
+#recordNowModal .modal-title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'DINPro';
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 32.298px */
+}
+#recordNowModal .modal-header {
+    justify-content: center;
+    border-bottom: none;
+}
+#recordNowModal .modal-body label {
+    color: #FFF;
+    text-align: center;
+    font-family: 'DINPro';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 17.079px */
+}
+#recordNowModal .modal-body input[type='text'], #recordNowModal .modal-body select {
+    height: 36px;
+    border-radius: 4px;
+    background-color: #FFF;
+}
+#recordNowModal .modal-body .button__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+#recordNowModal .modal-body .button__wrapper button {
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-family: 'DINPro';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 15.904px */
+}
+#recordNowModal .modal-footer {
+    border-top: none;
+}
 
 
 @media only screen and (max-width:768px){
