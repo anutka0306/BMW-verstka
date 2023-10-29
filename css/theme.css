@@ -4517,6 +4517,67 @@ ul.slick-dots {
     border-top: none;
 }
 
+/* Thank you page */
+.thankyou__header {
+    font-family: Dreamcast, serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 40px;
+}
+.thankyou__subtitle {
+    font-family: 'DINPro', serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.thankyou-actions_row_col__img1 {
+    background-image: url("../images/thankyou/thankyou1.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 200px;
+
+}
+.thankyou-actions_row_col__img2 {
+    background-image: url("../images/thankyou/thankyou2.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 250px;
+    height: calc(100% + 60px);
+}
+.thankyou-actions_row_col__img3 {
+    background-image: url("../images/thankyou/thankyou3.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 250px;
+}
+.thankyou-actions_row_col__img4 {
+    background-image: url("../images/thankyou/thankyou4.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 190px;
+}
+.thankyou-actions_row_col_text1 {
+    width: 70%;
+    font-size: 16px;
+}
+.thankyou-actions_row_col_text2 {
+    width: 70%;
+    font-size: 16px;
+}
+.thankyou-actions_row_col_text3 {
+    width: 70%;
+    font-size: 16px;
+}
+.thankyou-actions_row_col_text4 {
+    width: 70%;
+    font-size: 16px;
+}
+
 
 @media only screen and (max-width:768px){
   .quiz_header-title,.quiz_header-page-nubmber {display:none;}
@@ -4761,6 +4822,19 @@ and (max-device-width:1023px){
     }
     .ww-body-items.row >* {
         margin-bottom: 10px;
+    }
+
+    .thankyou-actions_row_col__img1,
+    .thankyou-actions_row_col__img2,
+    .thankyou-actions_row_col__img3,
+    .thankyou-actions_row_col__img4{
+        background-image: none;
+    }
+    .thankyou-actions_row_col_text1,
+    .thankyou-actions_row_col_text2,
+    .thankyou-actions_row_col_text3,
+    .thankyou-actions_row_col_text4{
+        width: 100%;
     }
 }
 /* md */
