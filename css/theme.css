@@ -2933,7 +2933,7 @@ select::-ms-expand { display: none; }
   width: 999px;
 }*/
 .col-12 > * {
-  float: left;
+  /*float: left;*/
   margin: 0 15px 0 0;
 }
 .col-12 > *:last-child {
@@ -4691,6 +4691,14 @@ ul.slick-dots {
     line-height: 137.9%; /* 13.79px */
     background-color: #1C69D4;
 }
+.blog-list__content .descriotion__short p {
+    color: #444;
+    font-family: 'DINPro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.9%; /* 19.984px */
+}
 .blog-list__content .blog-list__buttons {
     display: flex;
     justify-content: space-between;
@@ -4706,6 +4714,26 @@ ul.slick-dots {
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
+}
+.blog-list__content .blog__item_btn {
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135.5%;
+    text-transform: uppercase;
+}
+.blog-list__content .blog__item_btn strong {
+    display: block;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 135.5%; /* 17.615px */
+    text-transform: uppercase;
 }
 .blog-list__filter {
     padding: 16px 21px;
@@ -4738,6 +4766,98 @@ ul.slick-dots {
     font-weight: 500;
     line-height: 128%; /* 16.964px */
     text-transform: uppercase;
+}
+.blog-item__reviews {
+    padding: 16px 21px;
+    max-width: 200px;
+    border: 1px solid #1C69D4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-item__reviews h4 {
+    color: #1C69D4;
+    text-align: center;
+    font-family: 'DINPro';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 15.904px */
+    text-transform: uppercase;
+}
+.blog-item__table_contents {
+    padding: 16px 21px;
+    max-width: 200px;
+    border: 1px solid #1C69D4;
+}
+.blog-item__table_contents h4 {
+    color: #1C69D4;
+    text-align: center;
+    font-family: 'DINPro';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 15.904px */
+    text-transform: uppercase;
+}
+.blog-item__table_contents_list {
+    padding-left: 0;
+}
+.blog-item__table_contents_list li {
+    margin-bottom: 7px;
+}
+.blog-item__table_contents_list li a{
+    color: #444;
+    font-family: 'DINPro';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 137.9%; /* 16.548px */
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.blog-item__table_contents_list li a::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #1C69D4;
+    margin-right: 5px;
+    padding-right: 6px;
+}
+.blog__item_content_block h3 {
+    color: #444;
+    font-family: Dreamcast, Serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 32.4px */
+}
+.blog__item_content_text p {
+    color: #444;
+    font-family: 'DINPro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.4%; /* 23.104px */
+}
+.blog__item_content_text p.text-important {
+    color: #1C69D4;
+    font-family: 'DINPro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 153.9%; /* 24.624px */
+}
+.blog__item_content_text ol li {
+    list-style: decimal;
+    color: #444;
+    font-family: 'DINPro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.9%; /* 23.184px */
 }
 
 
@@ -5019,6 +5139,19 @@ and (max-device-width:1023px){
     .blog-list__filter_wrapper {
         display: flex;
         justify-content: center;
+    }
+    .blog__item_content_gallery_row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+    }
+    .blog__item_content_gallery_row img {
+        width: 50%;
+        object-fit: cover;
+    }
+    .btn-holder {
+        line-height: 20px;
     }
 }
 /* md */
