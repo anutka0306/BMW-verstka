@@ -1,8 +1,9 @@
 <div class="repair-info row">
-    <div class="row container">
+    <div class="row container repair-info__container">
         <div class="col-md-6 d-none d-md-block">
             <div class="engine-bmw-bg"></div>
-            <img class="engine-bmw" src="images/engine-bmw.png" alt="" width="446" height="425" />
+            <div class="engine-bmw"></div>
+            <!--<img class="engine-bmw" src="images/engine-bmw.png" alt="" width="446" height="425" />-->
         </div>
         <div class="col-md-6">
             <div class="ri-title">

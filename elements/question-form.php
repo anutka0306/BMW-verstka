@@ -1,4 +1,5 @@
-<div class="quation-form container">
+<div class="question-form__wrapper">
+    <div class="quation-form container">
     <div class="row">
         <div class="col-12-3">
             <p class="text-121">Остались вопросы?</p>
@@ -36,4 +37,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>

@@ -40,7 +40,7 @@
 
             </div>
 
-            <div class="col-right col-md-6 d-none d-md-block">
+            <div class="col-right col-md-6 d-none d-md-block ellipse__wrapper">
                 <div class="ellipse"></div>
             </div>
         </div>
