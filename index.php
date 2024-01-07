@@ -42,7 +42,7 @@
 <div class="lp">
     <?php include 'elements/top-nav.php';?>
     <?php include 'elements/header-top.php';?>
-    <?php include 'elements/header-slider.php';?>
+    <?php include 'elements/header-video.php';?>
     <?php include 'elements/repair-info.php'; ?>
     <?php include 'elements/why-we.php';?>
     <?php include 'elements/short-about.php'?>;

@@ -453,6 +453,82 @@ body {
     background-attachment: fixed;
     background-position: 0% 70%;
 }
+
+.bg-holder-video {
+    left: 0;
+    padding: 36px 0 84px;
+    width: 100%;
+    background: #000000;
+}
+.video-container {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+    filter: brightness(0.7);
+}
+.header__form{
+    padding: 38px 30px 51px 30px;
+    border: 1px solid #fff;
+}
+.header__form h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 19.367px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 23.24px */
+    text-transform: uppercase;
+}
+.header__form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__form .checkbox__wrapper {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 12px */
+}
+.header__form form input[type='text'], .header__form form input[type='tel'], .header__form form select{
+    width: 300px;
+    height: 41px;
+    color: #B8B8B8;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+}
+.header__form form input::placeholder {
+    color: #B8B8B8;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+}
+.header__form form input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    margin-right: 10px;
+}
+
 .col-left {
   margin: 0 auto;
   padding: 0 96px;
@@ -464,12 +540,16 @@ body {
   font-size: 67.93911px;
 }
 
-.title-page-desc {display:flex}
+.title-page-desc {
+    display:flex;
+    position: relative;
+}
 .title-slog {
   color: #ffffff;
   font-size: 19px;
   font-weight: 500;
   text-align: center;
+    font-family: "Open Sans";
 }
 .separator {
   height: 21px;
@@ -539,6 +619,7 @@ body {
   font-weight: 500;
   line-height: 52px;
   text-align: center;
+    position: relative;
 }
 .col-right {
   height: 600px;
@@ -4330,14 +4411,21 @@ background-color:#666666;
   font-weight: 900;
 }
 .title-page {
-  color: #ffffff;
-  font-family: Dreamcast, serif;
-  font-size: 67.93911px;
-  line-height: 70px;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 84px */
+    position: relative;
 }
 .title-page-blue {
-    font-family: Dreamcast, serif;
-    color: #1c69d4;
+    color: #1C69D4;
+    font-family: "Open Sans";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
 }
 .text-style {
   color: #1c69d4;
@@ -4630,7 +4718,15 @@ ul.slick-dots {
 .diagnostic-device-analytics-update-imac {margin-top:40px}
 .diagnostic-device-analytics-update-imac .item:first-child {margin: 13px 0 0;}
 .diagnostic-device-analytics-update-imac .item {margin: 8px 0 0;position: relative;display: flex;}
-.diagnostic-device-analytics-update-imac .item .text{width:60%;color:#ffffff;font-size:16px;font-weight:500;line-height:22px;margin-left:20px;}
+.diagnostic-device-analytics-update-imac .item .text{
+    width:60%;
+    color:#ffffff;
+    font-size:16px;
+    font-weight:500;
+    line-height:22px;
+    margin-left:20px;
+    font-family: "Open Sans";
+}
 
 .color1c69d4 {
     color: #1C69D4;
@@ -5168,8 +5264,17 @@ and (max-device-width:1023px){
     .title-page-desc{display:flex;justify-content:space-between;flex-wrap:nowrap;align-items:center;}
     .title-slog{font-size:15px;display:inline-block;}
     .diagnostic-device-analytics-update-imac .item .text {flex:2;}
-    .btn-hover-holder-wrapper {display: flex!important;justify-content: center;}
-    .btn-hover-holder {margin: 35px auto auto;max-width: 100%;width: 100%;}
+    .btn-hover-holder-wrapper {
+        display: flex!important;
+        justify-content: center;
+        position: relative;
+    }
+    .btn-hover-holder {
+        margin: 35px auto auto;
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+    }
     .bg-holder-2 {padding-bottom:60px;}
     .select-wrapper,.select-model button,.select-seria{width:100%;}
     .select-model button,.select-wrapper{margin-top:12px;}
