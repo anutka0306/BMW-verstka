@@ -825,6 +825,85 @@ select::-ms-expand { display: none; }
     padding-left: 0;
 }
 
+/* Repair info new */
+.repair-info__new {
+    padding-top: 60px;
+    padding-bottom: 66px;
+    height: 767px;
+    background-image: url("/images/repair-info-bg-icon2.svg"), url("/images/repair-info-bg-icon1.svg"), url("/images/repair-info-bg-icon3.svg");
+    background-repeat: no-repeat;
+    background-position: left center, 100% 5%, 100% 95%;
+}
+.repair-info__new h2{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 48px */
+}
+.repair-info__new_content {
+    width: 100%;
+    margin-top: 40px !important;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.repair-info__new_content_right {
+    width: 70%;
+}
+.repair-info__new_content_text {
+    padding: 71px 42px 70px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 50px 0px;
+    background: #EAEAEA;
+}
+.repair-info__new_content_text_wrapper {
+    width: 70%;
+}
+.repair-info__new_content_photo {
+    position: absolute;
+    top: 33px;
+    left: 0;
+}
+.repair-info__new_content_photo img {
+    border-radius: 50px 0;
+}
+.repair-info__new_logo {
+    margin-left: 30%;
+    margin-top: 50px;
+}
+.repair-info__new_logo .bg-holder {
+    float: left;
+    min-height: 34px;
+    background: #666;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: DINPro;
+    font-size: 34.492px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 41.391px */
+}
+.repair-info__new_logo .pik {
+    float: left;
+    margin: 0 0 0 7px;
+    width: auto;
+    color: #666;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 39.142px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 46.971px */
+    padding: 5px 0;
+}
+
 .engine-bmw-bg {
   height: 80%;
   width: 80%;

@@ -1,35 +1,33 @@
-<div class="repair-info row">
-    <div class="row container repair-info__container">
-        <div class="col-md-6 d-none d-md-block">
-            <div class="engine-bmw-bg"></div>
-            <div class="engine-bmw"></div>
-            <!--<img class="engine-bmw" src="images/engine-bmw.png" alt="" width="446" height="425" />-->
-        </div>
-        <div class="col-md-6">
-            <div class="ri-title">
-                <span>Ремонт БМВ в Санкт-Петербурге</span>
-                <div class="title-after"></div>
-            </div>
-            <div class="col-text">
-                <div class="heading">
-                    Вы давно ищите высококачественный сервис, специализирующийся на автомашинах марки BMW? Тогда наша компания, это то, что вам нужно!
-                </div>
-                <div class="repair-info-aboutser">
-                    <p>
-                        Мы осуществляем широкий спектр работ по обслуживанию и <strong class="fw700">ремонту машин баварского происхождения БМВ в Санкт-Петербурге. </strong>
-                    </p>
-                    <p>
-                        При входе к нам вас встретит команда высококвалифицированных работников,
-                        <br>с многолетним стажем.
-                    </p>
-                    <p>
-                        <strong class="fw700">Только БМВ</strong> - Преимуществом нашего сервиса BMW,
-                        <br>то что мы специализируемся на ремонт, диагностике
-                        <br>и обслуживания одной марки - BMW.
-                    </p>
+<div class="repair-info__new container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Ремонт БМВ в Санкт-Петербурге</h2>
+                <div class="repair-info__new_content">
+                    <div class="repair-info__new_content_photo">
+                        <img src="/images/repair-info-photo.png" alt="Ремонт БМВ в Санкт-Петербурге">
+                    </div>
+                    <div class="repair-info__new_content_right">
+                        <div class="repair-info__new_content_text">
+                        <div class="repair-info__new_content_text_wrapper">
+                            <p>Вы давно ищите высококачественный сервис, специализирующийся на автомашинах марки BMW?
+                                Тогда наша компания, это то, что вам нужно!</p>
+                            <p>Мы осуществляем широкий спектр работ  по обслуживанию и ремонту машин баварского происхождения БМВ в Санкт – Петербурге.</p>
+                            <p>При входе к нам вас встретит команда высококвалифицированных работников,  с многолетним стажем.</p>
+
+                               <p>Только БМВ - Преимуществом нашего сервиса BMW,  то что мы специализируемся на ремонт, диагностике  и обслуживания одной марки - BMW.</p>
+                        </div>
+
+                    </div>
+                        <div class="repair-info__new_logo">
+                            <a href="/">
+                                <div class="bg-holder">Автоцентр</div>
+                                <div class="pik">ПИК</div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 </div>
