@@ -10,38 +10,46 @@
         <div class="ww-body-items row">
             <div class="col-md-3" data-item="practicing">
                 <div class="wwbi">
-                    <div class="title">Практикуем</div>
-                    <div class="wwbi-description">
-                        <div class="text">Каждый день мы обслуживаем только БМВ</div>
+                    <div>
+                        <div class="title">Практикуем</div>
+                        <div class="wwbi-description">
+                            <div class="text">Каждый день мы обслуживаем только БМВ</div>
+                        </div>
                     </div>
-                    <img src="images/img-lift.png" alt="" width="160" height="129" />
+                    <img src="images/why-item1.png" alt="" />
                 </div>
             </div>
             <div class="col-md-3" data-item="warehouse">
                 <div class="wwbi">
-                    <div class="title">Огромный склад</div>
-                    <div class="wwbi-description">
-                        <div class="text">Мы работаем без посредников, на прямую с производителями.</div>
+                    <div>
+                        <div class="title">Огромный склад</div>
+                        <div class="wwbi-description">
+                            <div class="text">Мы работаем без посредников, на прямую с производителями.</div>
+                        </div>
                     </div>
-                    <img src="images/img-package.png" alt="" width="125" height="137" />
+                    <img src="images/why-item2.png" alt="" />
                 </div>
             </div>
             <div class="col-md-3" data-item="specialization">
                 <div class="wwbi">
-                    <div class="title">Специализация</div>
-                    <div class="wwbi-description">
-                        <div class="text">5-6 капитальных ремонта двигателей в месяц!</div>
+                    <div>
+                        <div class="title">Специализация</div>
+                        <div class="wwbi-description">
+                            <div class="text">5-6 капитальных ремонта двигателей в месяц!</div>
+                        </div>
                     </div>
-                    <img src="images/img-engine-n47.png" alt="" width="185" height="129" />
+                    <img src="images/why-item3.png" alt="" />
                 </div>
             </div>
             <div class="col-md-3" data-item="profs">
                 <div class="wwbi">
-                    <div class="title">Профессионалы</div>
-                    <div class="wwbi-description">
-                        <div class="text">Более 10 лет опыт наших мастеров с автомобильными двигателя!</div>
+                    <div>
+                        <div class="title">Профессионалы</div>
+                        <div class="wwbi-description">
+                            <div class="text">Более 10 лет опыт наших мастеров с автомобильными двигателя!</div>
+                        </div>
                     </div>
-                    <img src="images/img-mechanic.png" alt="" width="114" height="144" />
+                    <img src="images/why-item4.png" alt="" />
                 </div>
             </div>
         </div>
