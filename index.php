@@ -33,7 +33,7 @@
         <link rel="shortcut icon" type="image/png" href="./favicon.png" />
         <meta name="og:type" content="website" />
         <link type="text/css" rel="stylesheet" href="css/theme.css?v=1.<? echo time()?>" />
-        <link rel="stylesheet" href="css/slider3d.scss">
+        <link rel="stylesheet" href="css/slider3d.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
