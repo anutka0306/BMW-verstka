@@ -33,10 +33,12 @@
         <link rel="shortcut icon" type="image/png" href="./favicon.png" />
         <meta name="og:type" content="website" />
         <link type="text/css" rel="stylesheet" href="css/theme.css?v=1.<? echo time()?>" />
+        <link rel="stylesheet" href="css/slider3d.scss">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
     </head>
 <body dark-scroll>
 <div class="lp">
