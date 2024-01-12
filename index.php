@@ -123,7 +123,7 @@ var check_swiper = new Swiper('.swiper.check-slider', {
         slidesPerView: 3
       },
       1530: {
-        slidesPerView: 3
+        slidesPerView: 4
       },
     }  
 });
