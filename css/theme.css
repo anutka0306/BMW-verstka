@@ -45,15 +45,37 @@
     justify-content: center;
     max-width: 300px;
 }
-.check-slider__wrapper .swiper-button-next,.blue-arrow-right{background-image:url(../images/arrow-right-blue.svg) !important;}
-.check-slider__wrapper .swiper-button-prev,.blue-arrow-left{background-image:url(../images/arrow-left-blue.svg) !important;}
-.swiper-button-next{background-image:url(../images/arrow-right-white.svg) !important;}
-.swiper-button-prev{background-image:url(../images/arrow-left-white.svg) !important;}
+.check-slider__wrapper .swiper-button-next,.blue-arrow-right{
+    background-image:url(../images/arrow-right-blue1.svg) !important;
+}
+.check-slider__wrapper .swiper-button-prev,.blue-arrow-left{
+    background-image:url(../images/arrow-right-blue1.svg) !important;
+    transform: scale(-1, 1);
+}
+.swiper-button-next{
+    background-image:url(../images/arrow-right-blue1.svg) !important;
+    width: 47px;
+    height: 47px;
+    background-size: contain;
+}
+.swiper-button-prev{
+    background-image:url(../images/arrow-right-blue1.svg) !important;
+    transform: scale(-1, 1);
+    width: 47px;
+    height: 47px;
+    background-size: contain;
+}
 .swiper-button-next {
     right: 0;
 }
 .swiper-button-prev {
     left: 0;
+}
+.video-review-group .swiper-button-next {
+    right: -15px;
+}
+.video-review-group .swiper-button-prev {
+    left: -15px;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -1166,10 +1188,12 @@ select::-ms-expand { display: none; }
 
 .video-review-group {
   margin: 78px 0 0;
-  padding: 45px 0 41px;
+  padding: 60px 0 60px;
   position: relative;
   /*background: rgba(68, 68, 68, 0.92);*/
-    background-image: url("../images/video-review-bg.png");
+    background-color: rgba(0,0,0,.7);
+    background-blend-mode: multiply;
+    background-image: url("../images/video-reports-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1188,8 +1212,8 @@ select::-ms-expand { display: none; }
   margin: 59px 0 0;
 }
 .video-item {
-    height: 150px;
-    width: 300px;
+    height: 154px;
+    width: 242px;
 }
 .video-item iframe {
     width: 100%;
@@ -1228,11 +1252,16 @@ select::-ms-expand { display: none; }
   margin: 59px 0 0 24px;
 }
 .btn-secondary.btn-more {
-    margin: 39px auto 0;
-    min-height: 41px;
-    padding: 0 47px;
-    font-size: 13px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
     font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    text-decoration-line: underline;
+    border: none;
+    margin-top: 60px;
 }
 .l-unconstrained {
   margin: 47px 0 0;
