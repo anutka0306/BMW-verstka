@@ -1399,7 +1399,11 @@ select::-ms-expand { display: none; }
     margin-top: 26px;
 }
 
-
+.quiz {
+    background-color: #FEFEFE;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 .quiz-model-desc-info {
   color: #2a2e47;
@@ -1413,23 +1417,18 @@ select::-ms-expand { display: none; }
   padding: 25px 0 19px;
   position: relative;
   width: 100%;
-  background: #444444;
 }
 .main-mechanic-master {
   display: block;
   margin: 0 auto;
   position: relative;
+    border-radius: 50%;
 }
 .main-mechanic {
-  margin: -10px auto 0;
+  margin: 0 auto;
   min-height: 45px;
   padding: 9px 13px 7px;
   position: relative;
-  width: 110px;
-  background: #f6f6f6;
-  -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.11);
-  -moz-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.11);
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.11); /*drop shadow*/
 }
 .main-mechanic .name {
   font-size: 13.98746px;
@@ -4646,12 +4645,32 @@ background-color:#666666;
 /* QUIZ */
 .quiz-slide{text-align:center;color:#2a2e47;font-family:Cambria;display:none;}
 .input_mask1{padding:5px 20px!important;}
-.quiz-slide-1 .quiz_content-push{display:flex;flex-direction:column;justify-content:space-between;background-color:#f2f4fa;}
+.quiz-slide-1 .quiz_content-push{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border-left: 1px solid rgba(0,0,0,.5);
+
+
+}
 .quiz-slide-4 .quiz-content-group{padding:80px 0;}
 .flex {display:flex;}
-.quiz-slide{background-color:#f2f4fa;}
-.quiz_header{justify-content:center;align-items:center;background-color:#fff;}
-.quiz_header-title{margin:10px;float: left;color: #222222;font-family: Dreamcast, serif;font-size: 36px;}
+.quiz-slide{}
+.quiz_header{
+    justify-content:center;
+    align-items:center;
+    background-color:#fff;
+    margin-bottom: 50px;
+}
+.quiz_header-title{
+    color: #222;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 36px */
+}
 .quiz_header-page-nubmber{font-weight:600;font-size:24px;background-color:#ced3f1;}
 .quiz_header-page-nubmber span{border-radius:50%;padding:6px 13px;background-color:#2a2e47;color:white;line-height:32px;}
 .quiz_header-step {
@@ -4702,10 +4721,25 @@ ul.slick-dots {
     margin-bottom: 0;text-align: center;
 }
 .quiz-slider .slick-dots .slick-active button{background-color:#1c69d4;}
-.quiz-slider .slick-dots li button{font-size:0;border:none;background-color:#ced3f1;width:10px;height:11px;border-radius:0;margin:0 4px;}
+.slick-dots li {
+    width: 10px;
+    height: 10px;
+}
+.quiz-slider .slick-dots li button{
+    font-size:0;
+    border:none;
+    background-color:#ced3f1;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    margin:0 4px;
+}
 .quiz-thumbnail span{color:#2a2e47;font-family:Cambria;font-weight:400;    margin: 0 2px;}
 .slick-dots  li{display:inline-block;margin-bottom:4px;}
-.quiz-slider .slick-slide{margin:10px;outline:none;}
+.quiz-slider .slick-slide{
+    margin:10px;
+    outline:none;
+}
 .quiz-thumbnail{display:block;padding:0;margin-bottom:19px;line-height:1.42857143;margin-top:19px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;position:relative;cursor:pointer;}
 .quiz-thumbnail img{margin:0 auto;width: 127px;height:61px;}
 .quiz-thumbnail .h3 {margin-top: 5px; font-size: 16px; text-align: center;margin-bottom: 0;}
@@ -4782,7 +4816,15 @@ ul.slick-dots {
 .quiz-content-group{margin-top:30px;}
 .quiz-slide-5 .quiz_submit{padding:15px 38px 15px 70px;margin-left:15px;}
 .quiz-slide-4 .quiz_submit:after,.quiz-slide-5 .quiz_submit:after{display:none;}
-.quiz_content{display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex;}
+.quiz_content{
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:-o-flex;
+    display:flex;
+    background-color: #FEFEFE;
+
+}
 .sub_header-title{color:#2a2e47;font-family:Cambria;font-size:24px;font-weight:700;line-height:32px;}
 .d-none{display:none;}
 .slide-2_bonusy{display:none;}
@@ -5326,6 +5368,9 @@ ul.slick-dots {
     font-style: normal;
     font-weight: 500;
     line-height: 144.9%; /* 23.184px */
+}
+.quiz_content-main {
+    padding: 0 30px;
 }
 
 

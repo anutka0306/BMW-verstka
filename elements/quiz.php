@@ -4,18 +4,9 @@
             <div class="">
                 <form class="quiz_form ajax_form" method="post" id="quiz_form">
                     <div class="quiz-slide row quiz-slide-1 quiz-slide-active">
-                        <div class="quiz_header flex">
-                            <div class="quiz_header-title col-md-8">
+                        <div class="quiz_header">
+                            <div class="quiz_header-title col-md-9">
                                 Выберите модель вашего BMW
-                            </div>
-                            <div class="quiz_header-step col-md-4 flex">
-                                <span class="quiz_steps">Шаг 1 из 4</span>
-                                <div class="step__extender">
-                                    <div class="step__extender-item step__extender-item_active"></div>
-                                    <div class="step__extender-item"></div>
-                                    <div class="step__extender-item"></div>
-                                    <div class="step__extender-item"></div>
-                                </div>
                             </div>
                         </div>
                         <div class="quiz_content">
@@ -35,10 +26,10 @@
                             </div>
                             <div class="quiz_content-push col-md-3">
                                 <div class="quiz-select-model-wrapper">
-                                    <img class="main-mechanic-master" src="images/pngegg_17_3.png" alt="" width="108" height="136">
+                                    <img class="main-mechanic-master" src="images/director-foto1.png" alt="" width="161">
                                     <div class="main-mechanic">
-                                        <p class="name">Александр</p>
-                                        <p class="character">Специалист ПИК</p>
+                                        <p class="name">Константин Олегович</p>
+                                        <p class="character">Руководитель</p>
                                     </div>
                                     <div class="quiz-bonus">
                                         <img class="quiz-bonus-wing-1" src="images/pngwing_24.png" alt="" width="29" height="29">
