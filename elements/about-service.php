@@ -1,5 +1,5 @@
 <div class="about-service">
-    <div class="about-service-wrapp row">
+    <!--<div class="about-service-wrapp row">
         <div class=" col-md-5 front-car">
             <img src="images/front-car.png" alt="" />
         </div>
@@ -18,6 +18,36 @@
             <button class="btn-primary-2" data-bs-toggle="modal" data-bs-target="#recordNowModal">
                 ЗАПИСАТЬСЯ СЕЙЧАС
             </button>
+        </div>
+    </div>-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Сервис БМВ в Санкт-Петербурге</h2>
+                <div class="repair-info__new_content">
+                    <div class="repair-info__new_content_photo about-service__photo">
+                        <img src="/images/aboute-service-image.png" alt="Ремонт БМВ в Санкт-Петербурге">
+                    </div>
+                    <div class="repair-info__new_content_right">
+                        <div class="repair-info__new_content_text about-service__text">
+                            <div class="repair-info__new_content_text_wrapper about-service__text_wrapper">
+                                <p>Несмотря на широкое разнообразие выбора автосервисов по ремонту БМВ, наша компания выделяется из обильного множества. Конечно же, вы зададитесь почему?</p>
+
+                                <p>Мы преследовали цель объединить под одной крышей максимальное количество предоставляемых услуг и работ,  в совокупности с индивидуальным отношением к каждому клиенту и его проблеме.</p>
+
+                                <p>Используя современное оборудование на сервисе БМВ, мы гарантируем вам высокое качество работ, по последнему слову техники (что естественно ускоряет процесс ремонта). Также на нашем складе вы сможете найти любую необходимую запасную часть, начиная от мелких технических, заканчивая кузовными.</p>
+
+                                <p>Теперь вам не придется ждать длительной доставки, заказывая у официального автосервиса, ведь у нас все есть в наличии!</p>
+                            </div>
+
+                        </div>
+                        <div class="repair-info__new_logo">
+                            <button class="btn-primary">ЗАПИСАТЬСЯ СЕЙЧАС</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

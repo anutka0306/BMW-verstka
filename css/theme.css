@@ -1017,8 +1017,8 @@ select::-ms-expand { display: none; }
 }
 .about-service:before {
     content: '';
-    background: rgba(68, 68, 68, 0.92);
-    background-image: url(../images/why-we.jpg);
+    background: rgba(0, 0, 0, 0.7);
+    background-image: url(../images/about-service-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -1027,6 +1027,29 @@ select::-ms-expand { display: none; }
     height: 100%;
     position: absolute;
     top: 0;
+}
+.about-service h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 48px */
+}
+.about-service__text {
+    background: #FFFFFF;
+}
+.aboute-service__text p {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.9%; /* 19.824px */
+}
+.about-service__photo {
+    top: 60px;
 }
 .ww-head-title {
   margin: 0 auto;
@@ -1491,9 +1514,12 @@ select::-ms-expand { display: none; }
 }
 .about-service {
   margin: 42px 0 0;
-  padding: 55px 0 45px;
+  padding: 60px 0;
   position: relative;
-  background: rgba(68, 68, 68, 0.92);
+  background: rgba(0, 0, 0, .7);
+}
+.about-service__text_wrapper {
+    width: 75%;
 }
 .about-service-wrapp {
   margin: 0 auto;
