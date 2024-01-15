@@ -2734,8 +2734,13 @@ select::-ms-expand { display: none; }
   text-align: center;
 }
 .managers {
-  margin: 54px auto 0;
+    padding: 60px 0;
+  margin: 0 auto;
   position: relative;
+    background-color: #CCCCCC;
+    background-image: url("/images/managers-bg-icon1.svg"), url("/images/managers-bg-icon2.svg");
+    background-repeat: no-repeat;
+    background-position: 0% 30%, 100% 70%;
 }
 .manager-slider-item {
     display: flex !important;
@@ -2746,19 +2751,27 @@ select::-ms-expand { display: none; }
     background: #1C69D4;
     padding-top: 13px;
     padding-bottom: 15px;
-    width: 170px;
+    width: 240px;
 }
 .managers-slider {
     width: 100%;
+    margin-top: 60px !important;
+}
+.manager-slider-item__wrapper img {
+    border-radius: 0px 50px 0px 0px;
+}
+.manager-slider-item__wrapper .manager-slider-title {
+    border-radius: 0px 0px 0px 50px;
+    max-height: 130px;
 }
 .managers-slider .slick-next:before,
 .cliente-reviews-slick .slick-next:before
 {
     display: block;
     content: '';
-    width: 13px;
-    height: 21px;
-    background-image: url(../images/arrow-right-blue.svg);
+    width: 48px;
+    height: 48px;
+    background-image: url(../images/arrow-right-blue1.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -2768,17 +2781,22 @@ select::-ms-expand { display: none; }
 {
     display: block;
     content: '';
-    width: 13px;
-    height: 21px;
-    background-image: url(../images/arrow-left-blue.svg);
+    width: 48px;
+    height: 48px;
+    background-image: url(../images/arrow-right-blue1.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    transform: scale(-1, 1);
 }
 .title-7 {
-  font-family: Dreamcast, serif;
-  font-size: 35.96777px;
-  text-align: center;
+    color: #444;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 48px */
 }
 .wrapper-5 {
   height: 302px;
@@ -2810,17 +2828,22 @@ select::-ms-expand { display: none; }
   margin-left: 280.5px;
 }
 .text-73 {
-  color: #ffffff;
-  font-size: 12.98836px;
-  font-weight: bold;
-  text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px; /* 135% */
 }
 .text-74 {
-  margin: 13px 0 0;
-  color: #ffffff;
-  font-size: 10.99015px;
-  font-weight: 500;
-  text-align: center;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+    text-align: center;
 }
 .manager-03 {
   left: 50%;
