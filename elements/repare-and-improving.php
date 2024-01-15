@@ -1,96 +1,133 @@
-<div class="container repairing-and-improving">
-    <div class="line-after-heading"></div>
-    <p class="title-dex">Как мы уже упомянули, мы предлагаем к вашему вниманию широкое разнообразие работ по ремонту и улучшению условий эксплуатации вашего автотранспорта. А именно:</p>
+<div class="repairing-and-improving">
+    <div class="container">
+        <p class="title-dex">Как мы уже упомянули, мы предлагаем к вашему вниманию широкое разнообразие работ по ремонту и улучшению условий эксплуатации вашего автотранспорта. А именно:</p>
 
-    <div class="chess-repairing-and-improving">
-        <!-- First line -->
-        <div class="chess-repairing-and-improving_row">
-            <div class="chess-repairing-and-improving_row_col chess-repairing-and-improving_row_col_40">
-                <p class="chess-repairing-and-improving_row_col_title">
-                    Ремонт технического<br />
-                    и электрооборудования.
-                </p>
-                <div class="rectangle-2258"></div>
-                <p class="chess-repairing-and-improving_row_col_description">
-                    В данное широкое понятие включается ремонт и настройка двигателя, подвески, коробки передач (как механической, <br />
-                    так и автомат), тормозные диски, и так далее.
-                </p>
-            </div>
-            <div class="chess-repairing-and-improving_row_col chess-repairing-and-improving_row_col_60">
-                <div class="chess-repairing-and-improving_row_col__img chess-repairing-and-improving_row_col__img1">
-                    <div class="col-20_wrapper">
-                        <img src="images/bmw_n57_bez_fona_3.png" alt="" />
-                        <p class="text-61"><img src="images/01.png" style="width: 100%" alt=""></p>
-                    </div>
-
-                    <div class="d-flex">
-                        <div class="rectangle-2259"></div>
-                        <p class="text-62">Профилактика мотора: замена цепи ГРМ, мойка Vanos;</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Second line -->
-        <div class="chess-repairing-and-improving_row">
-            <div class="chess-repairing-and-improving_row_col chess-repairing-and-improving_row_col_60">
-                <div class="chess-repairing-and-improving_row_col__img chess-repairing-and-improving_row_col__img2">
-                    <div class="col-20_wrapper">
-                        <p class="text-61"><img src="images/02.png" alt=""></p>
-                    </div>
-
-                    <div class="d-flex">
-                        <div class="rectangle-2259"></div>
-                        <p class="text-62">Замена технических жидкостей: тормозная жидкость, масло, а также фильтра.</p>
-                    </div>
+        <div class="chess-repairing-and-improving">
+            <div class="repairing-and-improving__list_wrapper">
+            <!-- Header line -->
+                <div class="repairing-and-improving__list_header">
+                <div class="repairing-and-improving__list_header_content">
+                    <h3>Ремонт технического и электрооборудования.</h3>
+                    <p>В данное широкое понятие включается ремонт и настройка двигателя, подвески, коробки передач (как механической, так и автомат), тормозные диски, и так далее.</p>
+                    <div class="hr"></div>
                 </div>
             </div>
-            <div class="chess-repairing-and-improving_row_col chess-repairing-and-improving_row_col_40">
-                <div class="chess-repairing-and-improving_row_col__img chess-repairing-and-improving_row_col__img3">
-                    <div class="col-20_wrapper">
-                        <p class="text-61"><img src="images/03.png" alt=""></p>
+                <div class="blue-triangle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="590" height="31" viewBox="0 0 590 31" fill="none">
+                            <path d="M590 0H0L590 31V0Z" fill="#1C69D4"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="590" height="31" viewBox="0 0 590 31" fill="none">
+                            <path d="M0 0H590L0 31V0Z" fill="#1C69D4"/>
+                        </svg>
                     </div>
-
-                    <div class="d-flex">
-                        <div class="rectangle-2259"></div>
-                        <p class="text-62">Компьютерная диагностика БМВ и последующее обнаружение дефектов в работе автомобиля</p>
+                <!-- First line -->
+                <div class="repairing-and-improving__list_line">
+                    <div class="repairing-and-improving__list_line_number">
+                        <img src="/images/number-01.svg" alt="">
+                        <p class="repairing-and-improving__list_line_number_text">
+                            Профилактика мотора: замена цепи ГРМ, мойка Vanos;
+                        </p>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Third line -->
-        <div class="chess-repairing-and-improving_row">
-            <div class="chess-repairing-and-improving_row_col chess-repairing-and-improving_row_col_40">
-                <div class="chess-repairing-and-improving_row_col__img chess-repairing-and-improving_row_col__img4">
-                    <div class="col-20_wrapper">
-                        <p class="text-61"><img src="images/04.png" alt=""></p>
-                    </div>
-
-                    <div class="d-flex">
-                        <div class="rectangle-2259"></div>
-                        <p class="text-62">Осуществление работ по сезонной смене резины, включая сход – развал и балансировку.</p>
+                    <div class="repairing-and-improving__list_line_image">
+                        <img src="/images/repare-and-improving-foto1.png" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="chess-repairing-and-improving_row_col chess-repairing-and-improving_row_col_60">
-                <div class="chess-repairing-and-improving_row_col__img chess-repairing-and-improving_row_col__img5">
-                    <div class="col-20_wrapper">
-                        <p class="text-61"><img src="images/05.png" alt=""></p>
+                <div class="blue-triangle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="590" height="31" viewBox="0 0 590 31" fill="none">
+                        <path d="M590 0H0L590 31V0Z" fill="#1C69D4"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="590" height="31" viewBox="0 0 590 31" fill="none">
+                        <path d="M0 0H590L0 31V0Z" fill="#1C69D4"/>
+                    </svg>
+                </div>
+                <!-- Second line -->
+                <div class="repairing-and-improving__list_line">
+                    <div class="repairing-and-improving__list_line_image">
+                        <img src="/images/repare-and-improving-foto2.png" alt="">
                     </div>
-
-                    <div class="d-flex">
-                        <div class="rectangle-2259"></div>
-                        <p class="text-62">Кузовной ремонт любой сложности с имеющимися запчастями на складе</p>
+                    <div class="repairing-and-improving__list_line_number">
+                        <img src="/images/number-02.svg" alt="">
+                        <p class="repairing-and-improving__list_line_number_text">
+                            Замена технических жидкостей: тормозная жидкость, масло,
+                            а также фильтра.
+                        </p>
                     </div>
                 </div>
+                <div class="blue-triangle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="590" height="31" viewBox="0 0 590 31" fill="none">
+                        <path d="M590 0H0L590 31V0Z" fill="#1C69D4"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="590" height="31" viewBox="0 0 590 31" fill="none">
+                        <path d="M0 0H590L0 31V0Z" fill="#1C69D4"/>
+                    </svg>
+                </div>
+                <!-- Third line -->
+                <div class="repairing-and-improving__list_line">
+                    <div class="repairing-and-improving__list_line_number">
+                        <img src="/images/number-03.svg" alt="">
+                        <p class="repairing-and-improving__list_line_number_text">
+                            Компьютерная диагностика БМВ и последующее обнаружение дефектов в работе автомобиля;
+                        </p>
+                    </div>
+                    <div class="repairing-and-improving__list_line_image">
+                        <img src="/images/repare-and-improving-foto3.png" alt="">
+                    </div>
+                </div>
+                <div class="blue-triangle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="590" height="31" viewBox="0 0 590 31" fill="none">
+                        <path d="M590 0H0L590 31V0Z" fill="#1C69D4"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="590" height="31" viewBox="0 0 590 31" fill="none">
+                        <path d="M0 0H590L0 31V0Z" fill="#1C69D4"/>
+                    </svg>
+                </div>
+                <!-- Fourth line -->
+                <div class="repairing-and-improving__list_line">
+                    <div class="repairing-and-improving__list_line_image">
+                        <img src="/images/repare-and-improving-foto4.png" alt="">
+                    </div>
+                    <div class="repairing-and-improving__list_line_number">
+                        <img src="/images/number-04.svg" alt="">
+                        <p class="repairing-and-improving__list_line_number_text">
+                            Осуществление работ по сезонной смене резины, включая сход – развал
+                            и балансировку.
+                        </p>
+                    </div>
+                </div>
+                <div class="blue-triangle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="590" height="31" viewBox="0 0 590 31" fill="none">
+                        <path d="M590 0H0L590 31V0Z" fill="#1C69D4"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="590" height="31" viewBox="0 0 590 31" fill="none">
+                        <path d="M0 0H590L0 31V0Z" fill="#1C69D4"/>
+                    </svg>
+                </div>
+                <!-- Fifth line -->
+                <div class="repairing-and-improving__list_line">
+                    <div class="repairing-and-improving__list_line_number">
+                        <img src="/images/number-05.svg" alt="">
+                        <p class="repairing-and-improving__list_line_number_text">
+                            Кузовной ремонт любой сложности с имеющимися запчастями на складе
+                        </p>
+                    </div>
+                    <div class="repairing-and-improving__list_line_image">
+                        <img src="/images/repare-and-improving-foto5.png" alt="">
+                    </div>
+                </div>
+                <div class="blue-triangle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="590" height="31" viewBox="0 0 590 31" fill="none">
+                        <path d="M590 0H0L590 31V0Z" fill="#1C69D4"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="590" height="31" viewBox="0 0 590 31" fill="none">
+                        <path d="M0 0H590L0 31V0Z" fill="#1C69D4"/>
+                    </svg>
+                </div>
             </div>
-        </div>
+</div>
 
 
-        <
-    </div>
+
+
 
 
     <div class="list-ul group">
