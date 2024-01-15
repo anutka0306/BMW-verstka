@@ -126,51 +126,58 @@
 </div>
 
 
-
-
-
-
-    <div class="list-ul group">
-        <div class="d-flex align-items-center mb-3">
+    <div class="repairing-and-improving__list">
+        <div class="list-ul group">
+        <div class="d-flex align-items-start mb-3">
             <div class="maker">
                 <img class="arrow-1" src="images/arrow_1_1.png" alt="arrow" />
             </div>
             <p class="text-71">Доверяя вашу машину нашей компании, вы можете не беспокоиться о высоком качестве полученных работ.</p>
         </div>
 
-        <div class="d-flex align-items-center mb-3">
+        <div class="d-flex align-items-start mb-3">
             <div class="maker">
                 <img class="arrow-1" src="images/arrow_1_1.png" alt="arrow" />
             </div>
             <p class="text-71">Наши мастера имеют многолетний опыт работы по обслуживанию БМВ.</p>
         </div>
 
-        <div class="d-flex align-items-center mb-3">
+        <div class="d-flex align-items-start mb-3">
             <div class="maker">
                 <img class="arrow-1" src="images/arrow_1_1.png" alt="arrow" />
             </div>
             <p class="text-71">По завершению ремонтных и профилактических работ вы получаете гарантийный лист.</p>
         </div>
 
-        <div class="d-flex align-items-center mb-3">
+        <div class="d-flex align-items-start mb-3">
             <div class="maker">
                 <img class="arrow-1" src="images/arrow_1_1.png" alt="arrow" />
             </div>
             <p class="text-71">Мы придерживаемся индивидуального отношения к каждому клиенту, а главное к его машине!</p>
         </div>
 
-        <div class="d-flex align-items-center mb-3">
+        <div class="d-flex align-items-start mb-3">
             <div class="maker">
                 <img class="arrow-1" src="images/arrow_1_1.png" alt="arrow" />
             </div>
             <p class="text-71">Помимо этого у нас действует бонусная программа. Она включает в себя скидочные акции для постоянных клиентов.</p>
         </div>
 
+        <div class="d-flex align-items-start mb-3">
+                <div class="maker">
+                    <img class="arrow-1" src="images/arrow_1_1.png" alt="arrow" />
+                </div>
+                <p class="text-71">Помимо этого вы получаете уникальную возможность привести в наш автосервис друга, и получить скидку на дальнейшее обслуживание!</p>
+            </div>
+
 
         </div>
+        <div class="list-img">
+            <img src="/images/repare-and-improvming-list-img.png" alt="">
+        </div>
+    </div>
 
     <div class="blockqote group">
-        <div class="rectangle-2279"></div>
         <p class="text-72">
             Мы рады предложить вам оптимальное соотношение цены и качества, которое вы так давно искали. Спешите вступить в ряды наших довольных клиентов. В случае возникновения вопросов вы всегда сможете обратиться по нашим контактным
             данным, либо подъехать по указанному адресу. Двери нашего автосервиса БМВ всегда открыты для вас!
