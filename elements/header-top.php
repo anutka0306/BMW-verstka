@@ -1,7 +1,13 @@
 <div class="header-top">
     <div class="container">
         <div class="row">
-            <div class="block-logo col-md-4">
+            <div class="block-burger d-flex col-md-1">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+            </div>
+            <div class="block-logo col-md-3">
                 <div class="logo">
                     <a href="/">
                         <div class="bg-holder">Автоцентр</div>

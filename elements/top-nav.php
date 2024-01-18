@@ -1,3 +1,4 @@
+<div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
 <div class="top-navigation">
     <div class="container">
         <section class="navbar-navigation">
@@ -31,4 +32,5 @@
             </div>
         </section>
     </div>
+</div>
 </div>
