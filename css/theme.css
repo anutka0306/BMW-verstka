@@ -2923,7 +2923,7 @@ select::-ms-expand { display: none; }
   margin-left: -531.5px;
 }
 .client-reviews {
-  margin: 76px 0 0;
+  margin: 0;
   /*padding: 57px 0 101px;*/
   position: relative;
     background-color: rgba(0, 0, 0, .7);
@@ -4420,14 +4420,32 @@ select::-ms-expand { display: none; }
   text-align: center;
 }
 .contacts {
-  margin: 75px 0 0;
+  margin:0;
   min-height: 550px;
   position: relative;
   background: #444444;
 }
+.contacts__left {
+    background-image: url("/images/contats-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0% 90%;
+}
 .contacts .container-fluid {
     padding-right: 0;
     padding-left: 5%;
+}
+.contacts__address_wrapper {
+    width: 300px;
+    padding-top: 60px;
+    padding-bottom: 98px;
+                }
+.contacts__address_wrapper .repair-info__new_logo {
+    width: 50px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.repair-info__new_logo a {
+    display: flex;
 }
 .kontakty-2 {
   color: #ffffff;
@@ -4452,9 +4470,15 @@ select::-ms-expand { display: none; }
   background: #ffffff;
 }
 .contacts__list_item {
+    width: 100%;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.contacts__list_item img {
+    margin-right: 10px;
+    margin-top: 5px;
 }
 .contacts__list_icon {
     padding: 7px 0;
@@ -4708,13 +4732,25 @@ select::-ms-expand { display: none; }
   line-height: 26.97582px;
 }
 .text-131 {
-  margin: 19px 0 0 1px;
-  color: #ffffff;
-  font-size: 14.98657px;
-  line-height: 26.97582px;
+  margin: 0;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-131 strong{
+    margin: 0;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .text-132 {
-  margin: 18px 0 0;
+  margin: 0;
   width: 269px;
   color: #ffffff;
   font-size: 14.98657px;
@@ -4722,13 +4758,13 @@ select::-ms-expand { display: none; }
   line-height: 26.97582px;
 }
 .text-133 {
-  margin: 32px 0 0 1px;
+  margin: 0;
   color: #ffffff;
   font-size: 14.98657px;
   line-height: 26.97582px;
 }
 .text-134 {
-  margin: 30px 0 0 1px;
+  margin: 0;
   color: #ffffff;
   font-size: 15.98567px;
   font-weight: 900;
@@ -5970,6 +6006,9 @@ and (max-device-width:1023px){
     }
     .contacts__left {
        margin-left: 10px;
+        background-image: url("/images/contats-bg.png");
+        background-repeat: no-repeat;
+        background-position: left bottom;
     }
     .footer__menu {
         margin-top: 20px;
