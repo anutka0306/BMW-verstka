@@ -498,6 +498,13 @@ body {
     width: 100%;
     position: relative;
 }
+/*.video-container video:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    position: absolute;
+}*/
 
 .video-container video {
     width: 100%;
@@ -505,7 +512,7 @@ body {
     position: absolute;
     object-fit: cover;
     z-index: 0;
-    filter: brightness(0.7);
+    filter: brightness(0.3);
 }
 .header__form{
     padding: 38px 30px 51px 30px;
@@ -699,7 +706,7 @@ body {
     z-index: 10;
     background-position: 100% 60%;
 }
-.select-model{left:0;padding:11px 0 13px;width:100%;background:#404040;position:relative;z-index:3;}
+.select-model{left:0;padding:11px 0 13px;width:100%;background:rgba(217, 217, 217, 1);position:relative;z-index:3;}
 .l-constrained-10 {
     margin: 0 auto;
     padding: 0 100px;
