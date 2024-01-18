@@ -11,9 +11,8 @@
                     </div>
                     <div class="">
                         <div class="row-43 group">
-                            <p class="specializirovannyi-2">Специализированный</p>
+                            <p class="specializirovannyi-2">Специализированный<br>автосервис <span class="color1c69d4">BMW</span></p>
                         </div>
-                        <p class="text-136">автосервис <span class="color1c69d4">BMW</span></p>
                     </div>
                 </div>
             </div>
@@ -25,7 +24,7 @@
                                 <p>Меню</p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-4">
+                        <div class="col-md-5 col-4">
                             <ul>
                                 <li>
                                     <a href="#">Главная</a>
@@ -38,7 +37,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-4 col-4">
+                        <div class="col-md-3 col-4">
                             <ul>
                                 <li>
                                     <a href="#">Запчасти</a>
@@ -64,8 +63,8 @@
                         </div>
                         <div class="col-md-4 col-6">
                             <div class="footer__social_icons">
-                                <a href="#" class="me-2"><img src="/images/footer-vk.svg" alt="vk"></a>
-                                <a href="#"><img src="/images/footer-youtube.svg" alt="youtube"></a>
+                                <a href="#" class="me-2"><img src="/images/footer-vk.png" alt="vk"></a>
+                                <a href="#"><img src="/images/footer-youtube.png" alt="youtube"></a>
                             </div>
                         </div>
                     </div>
