@@ -33,7 +33,7 @@
                         Я даю согласие на обработку персональных данных
                     </p>
                 </div>
-                <input type="submit" class="btn btn-primary question-form__form_btn" value="ОТПРАВИТЬ ЗАЯВКУ">
+                    <button type="submit" class="btn btn-primary question-form__form_btn">ОТПРАВИТЬ ЗАЯВКУ</button>
                 </form>
             </div>
         </div>
