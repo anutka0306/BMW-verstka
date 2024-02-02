@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, minimal-ui">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="robots" content="noindex" />
-        <title>BMW</title>
+        <meta name="description" content="3 профильных автосервиса по ремонту BMW. Свой склад запчастей. Гарантия."/>
+        <title>Ремонт BMW в Санкт-Петербурге - Дешевле Дилера</title>
 
         <!-- Fonts -->
         <link rel="preload" href="css/fonts/montserrat/Montserrat-SemiBold.woff" as="font" type="font/woff" crossorigin />
@@ -42,7 +43,7 @@
     </head>
 <body dark-scroll>
 <div class="lp">
-    <?php include 'elements/top-nav.php';?>
+    <?php /*include 'elements/top-nav.php';*/?>
     <?php include 'elements/header-top.php';?>
     <?php include 'elements/header-video.php';?>
     <?php include 'elements/repair-info.php'; ?>
@@ -50,7 +51,8 @@
     <?php include 'elements/short-about.php'?>;
     <?php include 'elements/video-review.php';?>
     <?php include 'elements/check-works.php';?>
-    <?php include 'elements/quiz.php';?>
+    <?php /*include 'elements/quiz.php';*/?>
+    <?php /*include 'elements/quiz1.php';*/?>
     <?php include 'elements/about-service.php';?>
     <?php include 'elements/repare-and-improving.php';?>
     <?php include 'elements/choose-service.php';?>
@@ -335,6 +337,26 @@ $('.cliente-reviews-slick5').slick({
     ]
 }).next();
 
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a) {
+        m[i]=m[i]||function() { (m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    ym(56306008, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/56306008" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+    (function(w, d, s, h, id) {
+        w.roistatProjectId = id; w.roistatHost = h;
+        var p = d.location.protocol == "https:" ? "https://" : "http://";
+        var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init";
+        var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
+    })(window, document, 'script', 'cloud.roistat.com', '0dc92382b437fa129ca715bc94304147');
 </script>
 </body>
 </html>

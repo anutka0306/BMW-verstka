@@ -13,22 +13,22 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="video-item">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/3NQoKSgjELw?si=dzauKJ-TBfx0VwES&amp;controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ggUNDsxJbeM?si=Zc2_0vSfYPZee_h0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="video-item">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/3NQoKSgjELw?si=dzauKJ-TBfx0VwES&amp;controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/DKQV8l4BiTw?si=cxrTx--m9iM-A19-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="video-item">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/3NQoKSgjELw?si=dzauKJ-TBfx0VwES&amp;controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/u7NG-A6eDvw?si=0pyEIptAIE_9Z6YP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="video-item">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/3NQoKSgjELw?si=dzauKJ-TBfx0VwES&amp;controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BPpPqtLjeZI?si=EJATKFJq4k1jzNYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

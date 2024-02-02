@@ -1,13 +1,13 @@
 <div class="header-top">
     <div class="container">
         <div class="row">
-            <div class="block-burger d-flex col-md-1">
+            <!--<div class="block-burger d-flex col-md-1">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
-            </div>
-            <div class="block-logo col-md-3">
+            </div>-->
+            <div class="block-logo col-md-4">
                 <div class="logo">
                     <a href="/">
                         <div class="bg-holder">Автоцентр</div>
@@ -26,17 +26,17 @@
             <div class="address-heading d-none d-md-flex col-md-6">
                 <div class="k20">
                     <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Лесная</p>
-                    <p class="text-4">Кушелевская дорога 20<br /><strong>+7(812) 936 33-79</strong></p>
+                    <p class="text-4">Кушелевская дорога 20<br /><strong>+7 (812) 917-51-16</strong></p>
                     <small>Работаем сейчас</small>
                 </div>
                 <div class="b116">
                     <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Обводны канал</p>
-                    <p class="text-3">ул. Боровая 116<br /><strong>+7(812) 955 85-53</strong></p>
+                    <p class="text-3">ул. Боровая 116<br /><strong>+7 (812) 932-69-61</strong></p>
                     <small>Работаем сейчас</small>
                 </div>
                 <div class="to12">
                     <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Автово</p>
-                    <p class="text-5">Дор. на Турухтанные Острова 12<br /><strong>+7(812) 000 00-00</strong></p>
+                    <p class="text-5">Дор. на Турухтанные Острова 12<br /><strong>+7 (812) 945-75-86</strong></p>
                     <small>График работы с 9:00- 21:00</small>
                 </div>
             </div>

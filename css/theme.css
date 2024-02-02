@@ -31,7 +31,9 @@
 * Eric Meyer's Reset CSS v2.0
 */
 
-
+body {
+    overflow-x: hidden;
+}
 .video-review__slider {
     width: 100%;
     position: relative;

@@ -24,11 +24,13 @@
                 <input type="tel" name="phone" class="form-control" placeholder="Введите телефон">
                 <select name="address" id="address" class="form-control">
                     <option value="" selected>Выберите адрес</option>
-                    <option value="address1"> Address 1</option>
-                    <option value="address2"> Address 2</option>
+                    <option disabled selected>Выберите адрес</option>
+                    <option value="b116">ул. Боровая 116</option>
+                    <option value="k20">Кушелевская дорога 20</option>
+                    <option value="to12">Дор. на Турухтанные Острова 12</option>
                 </select>
                 <div class="d-flex align-items-center mt-2">
-                    <input type="checkbox" value="1" class="form-check-input">
+                    <input type="checkbox" checked value="1" class="form-check-input">
                     <p class="text-128 ms-2">
                         Я даю согласие на обработку персональных данных
                     </p>

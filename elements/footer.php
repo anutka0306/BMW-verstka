@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-12">
-                <div class="container footer__menu">
+                <div class="container footer__menu d-none">
                     <div class="row">
                         <div class="col-md-4 col-4">
                             <div class="footer__menu_first_col">
@@ -73,7 +73,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p class="footer__copyright">© 2023 / Все права защищены<br>Не является публичной офертой</p>
+                <p class="footer__copyright">© 2024 / Все права защищены<br>Не является публичной офертой</p>
             </div>
         </div>
     </div>

@@ -46,7 +46,7 @@
                 <div class="col-md-6 d-none d-md-flex align-items-start justify-content-center">
                 <div class="header__form mt-5">
                     <h3>запишитесь</h3>
-                    <form action="">
+                    <form id="header_form">
                         <input type="text" name="name" class="mt-5 form-control" placeholder="Ваше Имя">
                         <input type="tel" name="phone" class="form-control mt-3" placeholder="Введите телефон">
                         <select name="address" class="form-control mt-3" id="address">
@@ -58,7 +58,7 @@
                         <div class="checkbox__wrapper mt-5">
                         <input type="checkbox" class="form-check-input" checked value="1"> Я даю согласие на обработку персональных данных
                         </div>
-                        <button class="btn-primary mt-3" type="submit">ОТПРАВИТЬ ЗАЯВКУ</button>
+                        <button class="btn-primary mt-3" type="button">ОТПРАВИТЬ ЗАЯВКУ</button>
                     </form>
                 </div>
             </div>
@@ -97,3 +97,18 @@
         </div>
     </div>
 </div>
+
+<script>
+    $("#header_form button").on("click", function(){
+        $.ajax({
+            url: '/send_form.php',
+            method: 'post',
+            dataType: 'html',
+            data: $("#header_form").serialize(),
+            success: function(data){
+                console.log(data);
+                alert(data);
+            }
+        });
+    });
+</script>
