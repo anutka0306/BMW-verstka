@@ -48,7 +48,8 @@
     <?php include 'elements/header-video.php';?>
     <?php include 'elements/repair-info.php'; ?>
     <?php include 'elements/why-we.php';?>
-    <?php include 'elements/short-about.php'?>;
+    <?php include 'elements/short-about.php'?>
+    <?php include 'elements/short-about-mobile.php'?>
     <?php include 'elements/video-review.php';?>
     <?php include 'elements/check-works.php';?>
     <?php /*include 'elements/quiz.php';*/?>

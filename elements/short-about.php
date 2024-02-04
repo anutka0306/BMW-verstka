@@ -1,4 +1,4 @@
-<div class="container-fluid short-autocenter">
+<div class="container-fluid short-autocenter short-autocenter-desktop">
     <div class="container">
         <div class="title-3">
             <p class="text-24">Кратко о ремонте BMW в Автоцентре ПИК</p>
