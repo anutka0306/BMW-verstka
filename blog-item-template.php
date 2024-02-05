@@ -1,4 +1,3 @@
-<?php include 'works-data.php'; ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -41,50 +40,51 @@
 </head>
 <body dark-scroll>
 <div class="lp">
+    <?php include 'elements/top-nav.php';?>
     <?php include 'elements/header-top.php';?>
-    <?php include 'elements/header-video.php';?>
+    <?php include 'elements/header-slider.php';?>
 
     <div class="container mt-5">
         <!-- Breadcrumbs -->
         <div class="row">
             <div class="col-12">
-                <!--<div class="breadcrumbs mb-5">
+                <div class="breadcrumbs mb-5">
                     <a href="#">Ремонт БМВ Сервис БМВ | Диагностика BMW - Бесплатно! / Наши работы </a> / <span>Развал-схождение БМВ Х6</span>
-                </div>-->
+                </div>
             </div>
         </div>
         <!-- Short description block-->
         <div class="row">
             <!-- Main content -->
-            <div class="col-md-12 col-12">
+            <div class="col-md-9 col-12">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-12">
                             <div class="blog-list__gallery">
                                 <div class="blog-list__gallery_main">
-                                    <img src="<?=$works[$params['id']]['image']?>" alt="">
+                                    <img src="/images/blog-list/blog-list-main.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
                             <div class="blog-list__content">
-                                <h3 class="text-start"><?=$works[$params['id']]['title']?></h3>
+                                <h3 class="text-start">Замена маслосъемных колпачков BMW X5 E70 N62</h3>
                                 <div class="main-info mt-3">
                                     <div class="main-info__item">
-                                        Модель: <strong> <?=$works[$params['id']]['model']?></strong>
+                                        Модель: <strong> X5</strong>
                                     </div>
                                     <div class="main-info__item">
-                                        Кузов: <strong> <?=$works[$params['id']]['carcase']?></strong>
+                                        Кузов: <strong> E70</strong>
                                     </div>
                                     <div class="main-info__item">
-                                        Двигатель: <strong> <?=$works[$params['id']]['engine']?></strong>
+                                        Двигатель: <strong> N62</strong>
                                     </div>
                                     <div class="main-info__item">
-                                        Пробег: <strong> <?=$works[$params['id']]['mileage']?></strong>
+                                        Пробег: <strong> 193 000</strong>
                                     </div>
                                 </div>
                                 <div class="descriotion__short mt-3">
-                                   <p><?=$works[$params['id']]['description']?></p>
+                                   <p>Владельца БМВ беспокоил повышенный расход масла. Это могло говорить о разных неисправностях. В том числе, и о выходе  из строя маслосъемных колпачков</p>
                                 </div>
                                 <div class="blog-list__buttons">
                                     <button class="btn btn-primary blog__item_btn"><strong>бесплатная</strong>
@@ -96,16 +96,34 @@
                 </div>
             </div>
 
+            <!-- Filters -->
+            <div class="col-md-3 col-12 blog-list__filter_wrapper">
+                <div class="blog-item__reviews">
+                    <h4>Эту статью оценили 22 раза.</h4>
+                    <img src="/images/blog-item/5-star-rating.png" class="mt-2" alt="">
+                </div>
+                <div class="blog-item__table_contents mt-3">
+                    <h4>Оглавление</h4>
+                    <ul class="blog-item__table_contents_list mt-3">
+                        <li><a href="#">Когда менять маслосъемные колпачки БМВ X5 E70 N62</a></li>
+                        <li><a href="#">Симптомы к замене маслосъемных колпачков BMW X5 E70 N62</a></li>
+                        <li><a href="#">Как менять маслосъемные колпачки БМВ X5 E70 N62</a></li>
+                        <li><a href="#">Фото замены маслосъемных колпачков БМВ X5 E70 N62</a></li>
+                        <li><a href="#">Стоимость ремонта ВМВ</a></li>
+                        <li><a href="#">Узнать больше о ремонте ВМВ</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <!-- Content block 1 -->
         <div class="row blog__item_content_block mt-5">
-           <!-- <div class="col-12">
+            <div class="col-12">
                 <h3>Когда менять маслосъемные колпачки БМВ X5 E70 N62</h3>
-            </div>-->
+            </div>
         </div>
         <div class="row">
-            <!--<div class="col-md-4 col-12 mt-5">
+            <div class="col-md-4 col-12 mt-5">
                 <div class="blog__item_content_gallery">
                     <div class="blog__item_content_gallery_row">
                         <img src="/images/blog-item/bmw-7.png" alt="">
@@ -116,20 +134,21 @@
                         <img src="/images/blog-item/bmw-7.png" alt="">
                     </div>
                 </div>
-            </div>-->
-            <div class="col-md-12 col-12 mt-5">
+            </div>
+            <div class="col-md-8 col-12 mt-5">
                 <div class="blog__item_content_text">
-                    <?=$works[$params['id']]['content']?>
-                    <!--<p class="text-important">
+                    <p>В наш сервис «БМВ ПИК» приехал владелец BMW X5. Двигатель N62, пробег 193 000 км. Двигатель N62 – это замена предшественнику М62. V-образный 8-цилиндровый силовой агрегат с новой системой впуска и переменным подъемом клапанов Valvetronic. На каждый из 4-х распредвалов помещена муфта фазовращателя Vanos. В целом, это мощный и экономичный мотор.</p>
+                        <p>Ввиду технологичности, двигатели N серии имеют свои особенности, а в частности после 100 000 км пробега – начинают дубеть сальники клапанов. Пробег у автомобиля уже не маленький - 193 000 километров. Владелец обратился с проблемой повышенного расхода масла.</p>
+                    <p class="text-important">
                         Важно: маслосъемные колпачки имеет смысл менять каждые 100 000 км пробега.
-                    </p>-->
+                    </p>
                 </div>
             </div>
         </div>
 
 
         <!-- Content block 2 -->
-        <!--<div class="row blog__item_content_block mt-5">
+        <div class="row blog__item_content_block mt-5">
             <div class="col-12">
                 <h3>Симптомы к замене маслосъемных колпачков BMW X5 E70 N62</h3>
             </div>
@@ -159,10 +178,10 @@
                     </ol>
                 </div>
             </div>
-        </div>-->
+        </div>
 
         <!-- Content block 3 -->
-        <!--<div class="row blog__item_content_block mt-5">
+        <div class="row blog__item_content_block mt-5">
             <div class="col-12">
                 <h3>Как менять маслосъемные колпачки БМВ X5 E70 N62</h3>
             </div>
@@ -184,10 +203,10 @@
                     </div>
                 </div>
             </div>
-        </div>-->
+        </div>
 
         <!-- Content block 4 -->
-        <!--<div class="row blog__item_content_block mt-5">
+        <div class="row blog__item_content_block mt-5">
             <div class="col-12">
                 <h3>Фото замены маслосъемных колпачков БМВ X5 E70 N62</h3>
             </div>
@@ -218,7 +237,7 @@
                     <p>Работа выполнена, повышенный расход масла устранен, владелец доволен. Если у вас остались вопросы – звоните!</p>
                 </div>
             </div>
-        </div>-->
+        </div>
 
     </div>
 

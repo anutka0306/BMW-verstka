@@ -5,54 +5,20 @@
         <div class="check-slider__wrapper">
             <div class="swiper check-slider">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <?php foreach ($works as $key => $work): ?>
+                        <div class="swiper-slide">
                         <div class="check-item">
                             <div class="calendar__wrapper">
-                                <img class="calendar" src="images/calendar.svg" alt="" width="18" height="16" />
-                                <p class="text-26">19.06.23</p>
+                                <img class="calendar" src="/images/calendar.svg" alt="" width="18" height="16" />
+                                <p class="text-26"><?=$work['date']?></p>
                             </div>
-                            <p class="item-top-span">Чек BMW X5</p>
-                            <img class="image" src="images/image_3.png" alt="" />
-                            <p class="item-description-span">К нам обратился владелец BMW X5 <br />в кузове E70. Мотор установлен 4.8 N62...</p>
-                            <div class="btn-holder">ЧИТАТЬ ПОДРОБНЕЕ</div>
+                            <p class="item-top-span"><?=mb_substr($work['title'], 0, 25)?>...</p>
+                            <img class="image" src="<?=$work['image']?>" alt="" />
+                            <p class="item-description-span"><?=mb_substr($work['description'], 0, 75)?>...</p>
+                            <a href="/blog/<?=$key?>" class="btn-holder">ЧИТАТЬ ПОДРОБНЕЕ</a>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="check-item">
-                            <div class="calendar__wrapper">
-                                <img class="calendar" src="images/calendar.svg" alt="" width="18" height="16" />
-                                <p class="text-26">19.06.23</p>
-                            </div>
-                            <p class="item-top-span">Чек BMW X5</p>
-                            <img class="image" src="images/image_3.png" alt="" />
-                            <p class="item-description-span">К нам обратился владелец BMW X5 <br />в кузове E70. Мотор установлен 4.8 N62...</p>
-                            <div class="btn-holder">ЧИТАТЬ ПОДРОБНЕЕ</div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="check-item">
-                            <div class="calendar__wrapper">
-                                <img class="calendar" src="images/calendar.svg" alt="" width="18" height="16" />
-                                <p class="text-26">19.06.23</p>
-                            </div>
-                            <p class="item-top-span">Чек BMW X5</p>
-                            <img class="image" src="images/image_3.png" alt="" />
-                            <p class="item-description-span">К нам обратился владелец BMW X5 <br />в кузове E70. Мотор установлен 4.8 N62...</p>
-                            <div class="btn-holder">ЧИТАТЬ ПОДРОБНЕЕ</div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="check-item">
-                            <div class="calendar__wrapper">
-                                <img class="calendar" src="images/calendar.svg" alt="" width="18" height="16" />
-                                <p class="text-26">19.06.23</p>
-                            </div>
-                            <p class="item-top-span">Чек BMW X5</p>
-                            <img class="image" src="images/image_3.png" alt="" />
-                            <p class="item-description-span">К нам обратился владелец BMW X5 <br />в кузове E70. Мотор установлен 4.8 N62...</p>
-                            <div class="btn-holder">ЧИТАТЬ ПОДРОБНЕЕ</div>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
 
                 </div>
                 <div class="swiper-video-review-pagination"></div>

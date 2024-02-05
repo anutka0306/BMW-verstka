@@ -1455,6 +1455,7 @@ animation: flareAnimation;
   border-radius: 2px;
 }
 .item-description-span {
+    height: 64px;
     margin-top: 20px;
     color: #222;
     text-align: center;
@@ -1476,6 +1477,9 @@ animation: flareAnimation;
   font-weight: 500;
   line-height: 41px;
   text-align: center;
+}
+.btn-holder:hover {
+    color: #FFF;
 }
 .btn-holder1 {
     color: #1C69D4;
@@ -5734,6 +5738,7 @@ ul.slick-dots {
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
+    overflow-y: hidden;
 }
 .blog-list__content .blog__item_btn {
     color: #FFF;
