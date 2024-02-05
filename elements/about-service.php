@@ -43,7 +43,7 @@
 
                         </div>
                         <div class="repair-info__new_logo">
-                            <button class="btn-primary">ЗАПИСАТЬСЯ СЕЙЧАС</button>
+                            <button class="btn-primary" data-bs-toggle="modal" data-bs-target="#recordNowModal">ЗАПИСАТЬСЯ СЕЙЧАС</button>
                         </div>
                     </div>
                 </div>

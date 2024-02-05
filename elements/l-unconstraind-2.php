@@ -11,7 +11,7 @@
                             Замена свечей<br />
                             зажигания
                         </p>
-                        <div class="promo__btn">
+                        <div class="promo__btn" data-bs-toggle="modal" data-bs-target="#recordNowModal">
                             Записаться
                         </div>
                     </div>
@@ -25,7 +25,7 @@
                             технических<br />
                             жидкостей
                         </p>
-                        <div class="promo__btn">
+                        <div class="promo__btn" data-bs-toggle="modal" data-bs-target="#recordNowModal">
                             Записаться
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                             Диагностика ходовой<br />
                             части
                         </p>
-                        <div class="promo__btn">
+                        <div class="promo__btn" data-bs-toggle="modal" data-bs-target="#recordNowModal">
                             Записаться
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                             Диагностика<br/>
                             двигателя
                         </p>
-                        <div class="promo__btn">
+                        <div class="promo__btn" data-bs-toggle="modal" data-bs-target="#recordNowModal">
                             Записаться
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                             Замена<br/>
                             амортизаторов
                         </p>
-                        <div class="promo__btn">
+                        <div class="promo__btn" data-bs-toggle="modal" data-bs-target="#recordNowModal">
                             Записаться
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                             Замена колодок<br/>
                             или дисков
                         </p>
-                        <div class="promo__btn">
+                        <div class="promo__btn" data-bs-toggle="modal" data-bs-target="#recordNowModal">
                             Записаться
                         </div>
                     </div>
