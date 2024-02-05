@@ -3236,8 +3236,8 @@ animation: flareAnimation;
     justify-content: center;
 }
 .cliente-reviews-slick__item_wrapper {
-    width: 218px;
-    min-height: 281px;
+    width: 260px;
+    min-height: 340px;
     padding: 22px 13px 26px;
     position: relative;
     border: 1px solid #f6f6f6; /*stroke*/
@@ -3252,7 +3252,7 @@ animation: flareAnimation;
 .row-45 {
   margin: 0 0 0 1px;
   position: relative;
-  width: 184px;
+  width: 100%;
 }
 .rectangle-2336-3__wrapper {
     display: flex;
@@ -3268,9 +3268,10 @@ animation: flareAnimation;
 .col-61 {
   margin: 4px 0 0 6px;
   position: relative;
-  width: 56px;
+  width: 65px;
 }
 .vasilii-3 {
+    word-break: break-word;
     color: #000;
     text-align: center;
     font-family: DINPro;
@@ -3308,6 +3309,7 @@ animation: flareAnimation;
 .text-96 {
   margin: 23px 0 0 1px;
   width: 189px;
+    height: 150px;
     color: #000;
     font-family: DINPro;
     font-size: 12.11px;
