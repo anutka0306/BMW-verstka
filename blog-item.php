@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="robots" content="noindex" />
-    <title>Blog Item</title>
+    <meta name="description" content="<?=$works[$params['id']]['description']?>">
+    <title><?=$works[$params['id']]['title']?></title>
 
     <!-- Fonts -->
     <link rel="preload" href="/css/fonts/montserrat/Montserrat-SemiBold.woff" as="font" type="font/woff" crossorigin />

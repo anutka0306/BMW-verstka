@@ -20,7 +20,7 @@
                     Оставьте заявку или звонок<br />
                     <span>8 (812) 913-05-38</span>
                 </p>
-                <form action="">
+                <form id="question_form">
                 <input type="tel" name="phone" class="form-control" placeholder="Введите телефон">
                 <select name="address" id="address" class="form-control">
                     <option value="" selected>Выберите адрес</option>
@@ -35,10 +35,24 @@
                         Я даю согласие на обработку персональных данных
                     </p>
                 </div>
-                    <button type="submit" class="btn btn-primary question-form__form_btn">ОТПРАВИТЬ ЗАЯВКУ</button>
+                    <button type="button" class="btn btn-primary question-form__form_btn">ОТПРАВИТЬ ЗАЯВКУ</button>
                 </form>
             </div>
         </div>
     </div>
 </div>
 </div>
+<script>
+    $("#question_form button").on("click", function(){
+        $.ajax({
+            url: '/send_question_form.php',
+            method: 'post',
+            dataType: 'html',
+            data: $("#question_form").serialize(),
+            success: function(data){
+                console.log(data);
+                alert(data);
+            }
+        });
+    });
+</script>

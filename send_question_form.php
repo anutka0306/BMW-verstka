@@ -1,9 +1,7 @@
 <?php
 $errors = array();
 $addr = '';
-if (empty($_POST['name'])) {
-    $errors[] = 'Укажите имя';
-}
+
 if (empty($_POST['phone'])) {
     $errors[] = 'Укажите номер телефона';
 }
@@ -21,9 +19,8 @@ if (empty($_POST['address'])) {
 
 if(empty($errors)) {
     $arr = array(
-        "Заявка" => " с формы записи",
+        "Заявка на обратный звонок" => " с контактной формы",
         "Телефон" => $_POST['phone'],
-        "Имя" => $_POST['name'],
         "С сайта " => 'https://bmw.pikms.ru',
         "Адрес" => $addr,
     );
