@@ -34,20 +34,21 @@ if(empty($errors)) {
      $token = "6108121938:AAEvhKzdIOLLN6Oh68m8GV2ZGpr7ok3K16A";
      $chat_id = '-1001707616285'; // Пик СПБ4 Заявки
 
-    /*if ($address == 'СПБ4') {
-        $token = "6108121938:AAEvhKzdIOLLN6Oh68m8GV2ZGpr7ok3K16A";
-        $chat_id = '-1001707616285'; // Пик СПБ4 Заявки
-    }
-    if ($address == 'К20') {
-        // $token = "1737028189:AAEFd51Z6vSHslgX-CNMtItwWD6Iy5EIP74";
-        // $chat_id = "-1001493902889"; // Заявки VAG-PIK
-        $token = "6108121938:AAEvhKzdIOLLN6Oh68m8GV2ZGpr7ok3K16A";
-        $chat_id = '-1001616535220'; // Пик К20 Vag Заявки
-    }
-    if ($address == 'В2АЕ') {
-        $token = "1737028189:AAEFd51Z6vSHslgX-CNMtItwWD6Iy5EIP74";
-        $chat_id = "-1001408803296"; // ПИКСПБ Лексус
-    }*/
+     if ($address == 'to12') {
+         $token = "6108121938:AAEvhKzdIOLLN6Oh68m8GV2ZGpr7ok3K16A";
+         $chat_id = '-1001707616285'; // Пик СПБ4 Заявки
+     }
+     if ($address == 'k20') {
+         // $token = "1737028189:AAEFd51Z6vSHslgX-CNMtItwWD6Iy5EIP74";
+         // $chat_id = "-1001493902889"; // Заявки VAG-PIK
+         $token = "6108121938:AAEvhKzdIOLLN6Oh68m8GV2ZGpr7ok3K16A";
+         //$chat_id = '-1001616535220'; // Пик К20 Vag Заявки
+         $chat_id = '-1001668945809'; // Пик К20 Vag Заявки
+     }
+     if ($address == 'b116') {
+         $token = "6108121938:AAEvhKzdIOLLN6Oh68m8GV2ZGpr7ok3K16A";
+         $chat_id = "-1002138512820"; // ПИКСПБ Лексус
+     }
 
 
     $txt = '';

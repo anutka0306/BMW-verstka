@@ -29,11 +29,11 @@
                     <p class="text-4"><strong>+7 (812) 917-51-16</strong></p>
                 </div>
                 <div>
-                    <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Лесная</p>
+                    <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Обводны канал</p>
                     <p class="text-4"><strong>+7 (812) 932-69-61</strong></p>
                 </div>
                 <div>
-                    <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Лесная</p>
+                    <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Автово</p>
                     <p class="text-4"><strong>+7 (812) 945-75-86</strong></p>
                 </div>
             </div>
