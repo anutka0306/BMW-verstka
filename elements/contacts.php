@@ -15,21 +15,21 @@
                                             <img class="" src="images/contact-address-icon.svg" alt="" width="13" height="20" />
                                 <p class="text-130">
                                     <strong class="fw700 text-white">Кушелевская 20</strong><br />
-                                    8 (812) 913-05-38
+                                    +7 (812) 917-51-16
                                 </p>
                             </div>
                             <div class="contacts__list_item">
                                 <img class="" src="images/contact-address-icon.svg" alt="" width="13" height="20" />
                                 <p class="text-131">
                                     <strong class="fw700 text-white">Боровая 116</strong><br />
-                                    8 (812) 999-85-53
+                                    +7 (812) 932-69-61
                                 </p>
                             </div>
                             <div class="contacts__list_item">
                                 <img class="" src="images/contact-address-icon.svg" alt="" width="13" height="20" />
                                 <p class="text-131">
                                     Дорога на Турухтанные Острова 12<br />
-                                    <span class="fw400 text-white">8 (812) 000-00-00</span>
+                                    <span class="fw400 text-white">+7 (812) 945-75-86</span>
                                 </p>
                             </div>
                             <div class="contacts__list_item">

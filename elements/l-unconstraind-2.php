@@ -6,7 +6,7 @@
                 <div class="col-md-3">
                     <div class="promo1">
 
-                        <p class="promo__price">0 ₽</p>
+                        <p class="promo__price">от 2000 ₽</p>
                         <p class="promo__title">
                             Замена свечей<br />
                             зажигания
@@ -19,7 +19,7 @@
 
                 <div class="col-md-3">
                     <div class="promo2">
-                        <p class="promo__price">0 ₽</p>
+                        <p class="promo__price">от 600 ₽</p>
                         <p class="promo__title">
                             Замена<br />
                             технических<br />
@@ -60,7 +60,7 @@
                 <div class="col-md-3">
                     <div class="promo5">
 
-                        <p class="promo__price">0 ₽</p>
+                        <p class="promo__price">от 2500 ₽</p>
                         <p class="promo__title">
                             Замена<br/>
                             амортизаторов
@@ -73,7 +73,7 @@
 
                 <div class="col-md-3">
                     <div class="promo6">
-                        <p class="promo__price">0 ₽</p>
+                        <p class="promo__price">от 1200 ₽</p>
                         <p class="promo__title">
                             Замена колодок<br/>
                             или дисков

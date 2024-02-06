@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5 d-none">
             <div class="col-md-12">
                 <div class="d-flex justify-content-center">
                     <img class="vector-10" src="images/vector_10.png" alt="" width="28" height="34" />

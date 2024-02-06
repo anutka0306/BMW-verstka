@@ -38,6 +38,6 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
-        <button class="btn-secondary btn-more">ЗАГРУЗИТЬ ЕЩЕ</button>
+        <button class="btn-secondary btn-more d-none">ЗАГРУЗИТЬ ЕЩЕ</button>
     </div>
 </div>

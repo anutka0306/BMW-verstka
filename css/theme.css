@@ -392,7 +392,7 @@ body {
 .b116 {
   float: left;
   position: relative;
-  width: 138px;
+  width: 160px;
 }
 .subtract {
   float: left;
@@ -567,7 +567,7 @@ body {
 .header__form form input[type='text'], .header__form form input[type='tel'], .header__form form select{
     width: 300px;
     height: 41px;
-    color: #B8B8B8;
+    color: #000;
     font-family: "Open Sans";
     font-size: 14px;
     font-style: normal;
@@ -6137,6 +6137,19 @@ and (max-device-width:1023px){
 /* ALL MEDIA re get on bootstrap MOBILE. If support only mobile phone - use: https://snipp.ru/html-css/media-css */
 /* sm */
 @media (max-width: 576px) {
+    .certificates__header {
+        display: none;
+    }
+    .address-mobile {
+        display: flex !important;
+        justify-content: space-between;
+    }
+    .address-mobile > div {
+        width: 33%;
+    }
+    .address-mobile > div .text-4 strong {
+        font-size: 12px;
+    }
     .logo {flex: none;margin: 0;}
     .header-top {padding-bottom: 9px;}
     .select-model .d-flex {flex-wrap: wrap;}
@@ -6246,6 +6259,10 @@ and (max-device-width:1023px){
     }
     .text-123 {
         width: auto;
+        font-size: 16px;
+    }
+    .contacts__address_wrapper {
+        width: 100%;
     }
     .contacts .container-fluid {
         padding-left: 0;

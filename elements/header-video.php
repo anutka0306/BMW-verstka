@@ -48,7 +48,7 @@
                     <h3>запишитесь</h3>
                     <form id="header_form">
                         <input type="text" name="name" class="mt-5 form-control" placeholder="Ваше Имя">
-                        <input type="tel" name="phone" class="form-control mt-3" placeholder="Введите телефон">
+                        <input type="tel" name="phone" class="form-control mt-3" placeholder="Введите телефон" pattern="2-[0-9]{3}-[0-9]{3}">
                         <select name="address" class="form-control mt-3" id="address">
                             <option disabled selected>Выберите адрес</option>
                             <option value="b116">ул. Боровая 116</option>
@@ -77,6 +77,19 @@
                         </div>
                         <select class="select-seria" id="inputGroupSelectSeria">
                             <option>Выберите серию</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>X1</option>
+                            <option>X3</option>
+                            <option>X4</option>
+                            <option>X5</option>
+                            <option>X6</option>
+
                         </select>
                     </div>
                 </div>
@@ -90,7 +103,7 @@
                         </select>
                     </div>
                 </div>
-                <button class="btn-primary" style="height: 48px;">
+                <button class="btn-primary" data-bs-toggle="modal" data-bs-target="#recordNowModal" style="height: 48px;">
                     ВЫБРАТЬ
                 </button>
             </div>

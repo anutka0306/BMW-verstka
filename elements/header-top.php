@@ -23,21 +23,35 @@
                 <img src="/images/certificate.png" alt="Сертификат">
                 <img src="/images/certificate.png" alt="Сертификат">
             </div>
+            <div class="address-mobile d-none">
+                <div>
+                    <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Лесная</p>
+                    <p class="text-4"><strong>+7 (812) 917-51-16</strong></p>
+                </div>
+                <div>
+                    <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Лесная</p>
+                    <p class="text-4"><strong>+7 (812) 932-69-61</strong></p>
+                </div>
+                <div>
+                    <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Лесная</p>
+                    <p class="text-4"><strong>+7 (812) 945-75-86</strong></p>
+                </div>
+            </div>
             <div class="address-heading d-none d-md-flex col-md-6">
                 <div class="k20">
                     <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Лесная</p>
                     <p class="text-4">Кушелевская дорога 20<br /><strong>+7 (812) 917-51-16</strong></p>
-                    <small>Работаем сейчас</small>
+                    <small class="work-time">График работы с 9:00- 21:00</small>
                 </div>
                 <div class="b116">
                     <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Обводны канал</p>
                     <p class="text-3">ул. Боровая 116<br /><strong>+7 (812) 932-69-61</strong></p>
-                    <small>Работаем сейчас</small>
+                    <small class="work-time">График работы с 9:00- 21:00</small>
                 </div>
                 <div class="to12">
                     <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Автово</p>
                     <p class="text-5">Дор. на Турухтанные Острова 12<br /><strong>+7 (812) 945-75-86</strong></p>
-                    <small>График работы с 9:00- 21:00</small>
+                    <small class="work-time">График работы с 9:00- 21:00</small>
                 </div>
             </div>
         </div>
