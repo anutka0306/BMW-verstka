@@ -454,7 +454,7 @@
             dataType: 'html',
             data: $("#quiz_form").serialize(),
             success: function(data){
-                console.log(data);
+                alert(data);
             }
         });
     });
