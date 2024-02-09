@@ -12,6 +12,11 @@
         9 => array('id' => 10, 'title' => 'BMW X1', 'image' => '/images/quiz/cars/bmw-x1.png'),
         10 => array('id' => 11, 'title' => 'BMW X2', 'image' => '/images/quiz/cars/bmw-x2.png'),
         11 => array('id' => 12, 'title' => 'BMW X3', 'image' => '/images/quiz/cars/bmw-x3.png'),
+        12 => array('id' => 13, 'title' => 'BMW X4', 'image' => '/images/quiz/cars/bmw-x4.png'),
+        13 => array('id' => 14, 'title' => 'BMW X5', 'image' => '/images/quiz/cars/bmw-x5.png'),
+        14 => array('id' => 15, 'title' => 'BMW X6', 'image' => '/images/quiz/cars/bmw-x6.png'),
+        15 => array('id' => 16, 'title' => 'BMW X7', 'image' => '/images/quiz/cars/bmw-x7.png'),
+        16 => array('id' => 17, 'title' => 'BMW G07 (2019 -н.в.)', 'image' => '/images/quiz/cars/g07.png'),
     );
 ?>
 
@@ -19,7 +24,7 @@
     <div class="container">
         <div class="quiz_wrapper">
             <div class="">
-                <form class="quiz_form ajax_form" method="post" id="quiz_form">
+                <form class="quiz_form ajax_form" id="quiz_form">
     <div class="quiz-slide row quiz-slide-1 quiz-slide-active">
         <div class="quiz_header flex">
             <div class="quiz_header-title col-md-6 .d-sm-none .d-md-block">
@@ -55,7 +60,7 @@
                             <img style="width: 160px;height:90px;" src="<?/*= $car['image']*/?>" alt="<?/*= $car['title']*/?>" />
                             <div title="<?/*= $car['title']*/?>" style="margin-top: 5px; font-size: 16px; text-align: center;" class="h3"><span><?/*= $car['title']*/?></span></div>
                         </div>-->
-                        <div class="caption quiz-thumbnail" data-id="<?=$car['id']?>">
+                        <div class="caption quiz-thumbnail quiz-thumbnail-model" data-id="<?=$car['id']?>">
                             <img src="<?=$car['image']?>" alt="BMW" />
                             <div class="h3"><span><?=$car['title']?></span></div>
                             <!--<div class="quiz-model-desc-info">Е82<span>|</span>Е87<span>|</span>F20</div>-->
@@ -64,18 +69,23 @@
                 </div>
             </div>
             <div class="quiz_content-push col-md-3">
-                <div class="content-push-header">
-                    <img src="images/quiz/WhatsApp_Image.png" alt="Директор" class="director_pic">
-                    <h3>Константин Олегович</h3>
-                    <span class="quiz-slide-1_dolzhnost">руководитель</span>
-                    <span class="quiz-slide-1_header-descr">Обслуживаться в Автоцентре ПИК выгодно, Вы получаете
-                        бонусы и скидки!</span>
-                </div>
-                <div class="content-push-main">
-                    <img src="images/quiz/MAGAZINE.png" alt="" class="content-push-image">
-                </div>
-                <div class="content-push-footer">
-                    <a href="#" class="quiz_button quiz_button-1" onclick="yaCounter56306008.reachGoal('next'); return true;">далее</a>
+                <div class="quiz-select-model-wrapper">
+                    <img class="main-mechanic-master" src="images/director-foto1.png" alt="" width="161">
+                    <div class="main-mechanic">
+                        <p class="name">Константин Олегович</p>
+                        <p class="character">Руководитель</p>
+                    </div>
+                    <div class="quiz-bonus">
+                        <img class="quiz-bonus-wing-1" src="images/pngwing_24.png" alt="" width="29" height="29">
+                        <div class="quiz-bonus-info">
+                            Обслуживаться<br>в Автоцентре ПИК выгодно, <br>Вы получаете бонусы и скидки!
+                        </div>
+                        <img class="quiz-bonus-wing-2" src="images/pngwing_21.png" alt="" width="52" height="56">
+                        <img class="quiz-bonus-wing-3" src="images/pngwing_23.png" alt="" width="29" height="30">
+                    </div>
+                    <div class="content-push-footer">
+                        <button class="btn-primary quiz_button quiz_button-1" style="width: 100%;">Далее</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,46 +113,36 @@
             <div class="quiz_content-main col-md-9">
                 <div class="quiz_select-lable-wrapper">
                     <select class="quiz_select-field quiz_select-abs" name="cabin">
-                        {$_modx->runSnippet("pdoResources",[
-                        'select' => 'id,pagetitle',
-                        'parents' => 160,
-                        'tpl' => '@INLINE <option value="{$pagetitle}" data-src="{$id}">{$pagetitle}</option>',
-                        'limit' => 0,
-                        'depth' => 0,
-                        'sortby' => 'pagetitle',
-                        'sortdir' => 'ASC'
-                        ])}
+
                     </select>
 
                 </div>
                 <div class="quiz-content quiz_select-cabin quiz_select-items">
-                    {$_modx->runSnippet("pdoResources",[
-                    'parents' => '159',
-                    'depth' => '0',
-                    'limit' => '0',
-                    'tpl' => 'quiz_tpl',
-                    'sortdir' => 'ASC',
-                    'includeTVs' => 'img',
-                    'tvPrefix' => ''
-                    ])}
+
                 </div>
                 <div class="button-wrapper">
                     <a href="#" class="quiz_button quiz_button-2">далее</a></div>
             </div>
             <div class="quiz_content-push col-md-3">
-                <div class="content-push-header">
-                    <img src="images/quiz/WhatsApp_Image.png" alt="Директор" class="director_pic">
-                    <h3>Константин Олегович</h3>
-                    <span class="quiz-slide-1_dolzhnost">руководитель</span>
-                    <span class="quiz-slide-1_header-descr">БЕСПЛАТНАЯ компьютерная диагностика при первом
-                        обращение!</span>
-                </div>
-                <div class="content-push-main">
-                    <img src="images/quiz/enjine.png" alt="" class="content-push-image">
-                    <span class="slide-2_bonusy">Гарантированные бонусы!</span>
-                </div>
-                <div class="content-push-footer">
-                    <a href="#" class="quiz_button quiz_button-2">далее</a>
+                <div class="quiz-select-model-wrapper">
+                    <img class="main-mechanic-master" src="/images/director-foto1.png" alt="" width="161">
+                    <div class="main-mechanic">
+                        <p class="name">Константин Олегович</p>
+                        <p class="character">Руководитель</p>
+                    </div>
+                    <div class="quiz-bonus">
+                        <img class="quiz-bonus-wing-1" src="/images/pngwing_24.png" alt="" width="29" height="29">
+                        <div class="quiz-bonus-info">
+                            Обслуживаться<br>в Автоцентре ПИК выгодно, <br>Вы получаете бонусы и скидки!
+                        </div>
+                        <img class="quiz-bonus-wing-2" src="/images/pngwing_21.png" alt="" width="52" height="56">
+                        <img class="quiz-bonus-wing-3" src="/images/pngwing_23.png" alt="" width="29" height="30">
+                    </div>
+
+                        <div class="content-push-footer">
+                            <button class="btn-primary quiz_button quiz_button-1" style="width: 100%;">Далее</button>
+                        </div>
+
                 </div>
             </div>
         </div>
@@ -150,11 +150,9 @@
     <div class="quiz-slide row quiz-slide-3">
         <div class="quiz_header flex">
             <div class="quiz_header-title col-md-6 .d-sm-none .d-md-block">
-                <h3>{$_modx->resource.quiz_header3}</h3>
+                <h3>ВЫБЕРИТЕ ВИД РАБОТ</h3>
             </div>
-            <div>
-                <h3 class="hidden-header">{$_modx->resource.quiz_header3}</h3>
-            </div>
+
             <div class="quiz_header-step col-md-6 flex col-12 ">
                 <span class="quiz_steps">Шаг 3 из 5</span>
                 <div class="step__extender">
@@ -168,45 +166,41 @@
         </div>
         <div class="quiz_content">
             <div class="quiz_content-main col-md-9">
-                <div class="quiz-content">
+                <div class="quiz-content container">
+                    <div class="row">
                     <div class="col-md-6 quiz-slide-3_column">
 
                         <h3 class="choose_sevrices">выберите вид работ</h3>
                         <ul class="unstyled centered">
                             <li>
                                 <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox"
-                                       value="{$_modx->resource.work_list1}" name="services_checkbox[]">
-                                <label for="styled-checkbox-1"
-                                       [[!+fi.services_checkbox:FormItIsChecked=`{$_modx->resource.work_list1}`]]><span
-                                        class="work_list">{$_modx->resource.work_list1}</span></label>
+                                       value="ТО (Техническое обслуживание)" name="services_checkbox[]">
+                                <label for="styled-checkbox-1"><span
+                                        class="work_list">ТО (Техническое обслуживание)</span></label>
                             </li>
                             <li>
                                 <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox"
-                                       value="{$_modx->resource.work_list2}" name="services_checkbox[]">
-                                <label for="styled-checkbox-2"
-                                       [[!+fi.services_checkbox:FormItIsChecked=`{$_modx->resource.work_list2}`]]><span
-                                        class="work_list">{$_modx->resource.work_list2}</span></label>
+                                       value="Диагностика" name="services_checkbox[]">
+                                <label for="styled-checkbox-2"><span
+                                        class="work_list">Диагностика</span></label>
                             </li>
                             <li>
                                 <input class="styled-checkbox" id="styled-checkbox-3" type="checkbox"
-                                       value="{$_modx->resource.work_list3}" name="services_checkbox[]">
-                                <label for="styled-checkbox-3"
-                                       [[!+fi.services_checkbox:FormItIsChecked=`{$_modx->resource.work_list3}`]]><span
-                                        class="work_list">{$_modx->resource.work_list3}</span></label>
+                                       value="Замена масла" name="services_checkbox[]">
+                                <label for="styled-checkbox-3"><span
+                                        class="work_list">Замена масла</span></label>
                             </li>
                             <li>
                                 <input class="styled-checkbox" id="styled-checkbox-4" type="checkbox"
-                                       value="{$_modx->resource.work_list4}" name="services_checkbox[]">
-                                <label for="styled-checkbox-4"
-                                       [[!+fi.services_checkbox:FormItIsChecked=`{$_modx->resource.work_list4}`]]><span
-                                        class="work_list">{$_modx->resource.work_list4}</span></label>
+                                       value="Ремонт двигателя" name="services_checkbox[]">
+                                <label for="styled-checkbox-4"><span
+                                        class="work_list">Ремонт двигателя</span></label>
                             </li>
                             <li>
                                 <input class="styled-checkbox" id="styled-checkbox-5" type="checkbox"
-                                       value="{$_modx->resource.work_list5}" name="services_checkbox[]">
-                                <label for="styled-checkbox-5"
-                                       [[!+fi.services_checkbox:FormItIsChecked=`{$_modx->resource.work_list5}`]]><span
-                                        class="work_list">{$_modx->resource.work_list5}</span></label>
+                                       value="Ремонт подвески" name="services_checkbox[]">
+                                <label for="styled-checkbox-5"><span
+                                        class="work_list">Ремонт подвески</span></label>
                             </li>
                         </ul>
                     </div>
@@ -214,37 +208,32 @@
                         <ul class="unstyled centered">
                             <li>
                                 <input class="styled-checkbox" id="styled-checkbox-6" type="checkbox"
-                                       value="{$_modx->resource.work_list6}" name="services_checkbox[]">
-                                <label for="styled-checkbox-6"
-                                       [[!+fi.services_checkbox:FormItIsChecked=`{$_modx->resource.work_list6}`]]><span
-                                        class="work_list">{$_modx->resource.work_list6}</span></label>
+                                       value="Замена цепи ГРМ" name="services_checkbox[]">
+                                <label for="styled-checkbox-6"><span
+                                        class="work_list">Замена цепи ГРМ</span></label>
                             </li>
                             <li>
                                 <input class="styled-checkbox" id="styled-checkbox-7" type="checkbox"
-                                       value="{$_modx->resource.work_list7}" name="services_checkbox[]">
-                                <label for="styled-checkbox-7"
-                                       [[!+fi.services_checkbox:FormItIsChecked=`{$_modx->resource.work_list7}`]]><span>{$_modx->resource.work_list7}</span></label>
+                                       value="Шиномонтаж" name="services_checkbox[]">
+                                <label for="styled-checkbox-7"><span>Шиномонтаж</span></label>
                             </li>
                             <li>
                                 <input class="styled-checkbox" id="styled-checkbox-8" type="checkbox"
-                                       value="{$_modx->resource.work_list8}" name="services_checkbox[]">
-                                <label for="styled-checkbox-8"
-                                       [[!+fi.services_checkbox:FormItIsChecked=`{$_modx->resource.work_list8}`]]><span
-                                        class="work_list">{$_modx->resource.work_list8}</span></label>
+                                       value="Тюнинг" name="services_checkbox[]">
+                                <label for="styled-checkbox-8"><span
+                                        class="work_list">Тюнинг</span></label>
                             </li>
                             <li>
                                 <input class="styled-checkbox" id="styled-checkbox-9" type="checkbox"
-                                       value="{$_modx->resource.work_list9}" name="services_checkbox[]">
-                                <label for="styled-checkbox-9"
-                                       [[!+fi.services_checkbox:FormItIsChecked=`{$_modx->resource.work_list9}`]]><span
-                                        class="work_list">{$_modx->resource.work_list9}</span></label>
+                                       value="Запчасти" name="services_checkbox[]">
+                                <label for="styled-checkbox-9"><span
+                                        class="work_list">Запчасти</span></label>
                             </li>
                             <li>
                                 <input class="styled-checkbox" id="styled-checkbox-10" type="checkbox"
-                                       value="{$_modx->resource.work_list10}" name="services_checkbox[]">
-                                <label for="styled-checkbox-10"
-                                       [[!+fi.services_checkbox:FormItIsChecked=`{$_modx->resource.work_list10}`]]><span
-                                        class="work_list">{$_modx->resource.work_list10}</span></label>
+                                       value="другое" name="services_checkbox[]">
+                                <label for="styled-checkbox-10"><span
+                                        class="work_list">другое</span></label>
                             </li>
                         </ul>
                     </div>
@@ -253,22 +242,30 @@
                             <textarea name="comment" id="quiz_textarea" cols="30" rows="5"></textarea></label>
                     </div>
                 </div>
+                </div>
                 <div class="quiz_mobile-wrapper"><a href="#"
                                                     class="quiz_button quiz_button-3 quiz_mobile-button">далее</a></div>
             </div>
             <div class="quiz_content-push col-md-3">
-                <div class="content-push-header">
-                </div>
-                <div class="content-push-main">
-                    <div class="push_description">
-                        <h3>бесплатная</h3>
-                        <span>диагностика<br> подвески</span>
+                <div class="quiz-select-model-wrapper">
+                    <img class="main-mechanic-master" src="images/director-foto1.png" alt="" width="161">
+                    <div class="main-mechanic">
+                        <p class="name">Константин Олегович</p>
+                        <p class="character">Руководитель</p>
                     </div>
-                    <img src="images/quiz/man.png" alt="" class="content-push-image">
-                    <img src="images/quiz/mob-man.png" alt="" class=" mob-man-image">
-                </div>
-                <div class="content-push-footer">
-                    <a href="#" class="quiz_button quiz_button-3">далее</a>
+                    <div class="quiz-bonus">
+                        <img class="quiz-bonus-wing-1" src="images/pngwing_24.png" alt="" width="29" height="29">
+                        <div class="quiz-bonus-info">
+                            Обслуживаться<br>в Автоцентре ПИК выгодно, <br>Вы получаете бонусы и скидки!
+                        </div>
+                        <img class="quiz-bonus-wing-2" src="images/pngwing_21.png" alt="" width="52" height="56">
+                        <img class="quiz-bonus-wing-3" src="images/pngwing_23.png" alt="" width="29" height="30">
+                    </div>
+
+                        <div class="content-push-footer">
+                            <button class="btn-primary quiz_button quiz_button-1" style="width: 100%;">Далее</button>
+                        </div>
+
                 </div>
             </div>
         </div>
@@ -299,87 +296,52 @@
                     <h3 class="sub_header-title d-sm-none d-md-block">Выберите адрес</h3>
                 </div>
                 <div class="quiz-content-group col-md-12">
-                    <div class="col-md-12  col-12 ">
-
-                        <div class="push_description d-none d-sm-block d-md-none">
-                            <p>Выберите адрес</p>
-                            <p>+ Бесплатная <br> диагностика подвески</p>
-                            <p>+ Бесплатная <br>компьютерная диагностика</p>
-
-                        </div>
-                    </div>
                     <div class="col-md-12 quiz-adress_col">
-
-
-                        <div class="inputGroupContainer AdressInputGroup">
-                            <div class="input-group col-md-6">
-                                <div class="adress_item">
-                                    <label class="adress_label adress_kush">
-                                        <img src="/img/cont1.jpg" alt="">
-                                        <input class="styled-checkbox adress_radio" id="styled-checkbox-357" type="radio" value="Кушелевская 20" name="adress_radio">
-                                        <div class="adress_text-group">
-                                            <p class="adress_item-text">Санкт-Петербург<br> Кушелевская дорога 20</p>
-                                            <p class="adress_item-text">917-51-16</p>
-                                        </div>
-                                    </label>
-                                </div>
-                                <div class="adress_item">
-                                    <label class="adress_label adress_bor">
-                                        <img src="/img/cont-2.jpg" alt="">
-                                        <input class="styled-checkbox adress_radio" id="styled-checkbox-358" type="radio" value="Боровая 116" name="adress_radio">
-                                        <div class="adress_text-group">
-                                            <p class="adress_item-text">Санкт-Петербург<br> ул. Боровая 116</p>
-                                            <p class="adress_item-text">8 (812) 932-69-61</p>
-                                        </div>
-                                    </label>
-                                </div>
-                                <div class="adress_item">
-                                    <label class="adress_label adress_tur">
-                                        <img src="/img/cont-3.png" alt="">
-                                        <input class="styled-checkbox adress_radio" id="styled-checkbox-359" type="radio" value="СПБ4" name="adress_radio">
-                                        <div class="adress_text-group">
-                                            <p class="adress_item-text">Санкт-Петербург<br> дорога на Турухтанные Острова, 12</p>
-                                            <p class="adress_item-text">8 (812) 945-75-86</p>
-                                        </div>
-                                    </label>
-                                </div>
-                                <div class="adress_item activea">
-                                    <label class="adress_label activea">
-                                        <input class="styled-checkbox adress_radio" type="radio" value="Любой" name="adress_radio" checked="checked">
-                                        <div class="adress_text-group">
-                                            <p class="adress_item-text">Санкт-Петербург</p>
-                                            <p class="adress_item-text">Любой филиал</p>
-                                        </div>
-                                    </label>
-                                </div>
-
-                            </div>
-                            <div class="col-md-6">
-                                <div class="ymap-container">
-
-                                    <div class="loader loader-default"></div>
-                                    <div id="map-yandex"></div>
-                                </div>
-                            </div>
-                        </div>
+                        <ul class="unstyled centered">
+                            <li>
+                                <input class="adress_radio" id="styled-checkbox-357" type="radio" value="k20" name="adress_radio">
+                                <label for="styled-checkbox-1"><span
+                                            class="work_list">Санкт-Петербург - Кушелевская дорога 20<br>917-51-16</span></label>
+                            </li>
+                            <li>
+                                <input class="adress_radio" id="styled-checkbox-357" type="radio" value="b116" name="adress_radio">
+                                <label for="styled-checkbox-1"><span
+                                            class="work_list">Санкт-Петербург - ул. Боровая 116<br>8 (812) 932-69-61</span></label>
+                            </li>
+                            <li>
+                                <input class="adress_radio" id="styled-checkbox-357" type="radio" value="to12" name="adress_radio">
+                                <label for="styled-checkbox-1"><span
+                                            class="work_list">Санкт-Петербург - дорога на Турухтанные Острова, 12<br>8 (812) 945-75-86</span></label>
+                            </li>
+                            <li>
+                                <input class="adress_radio" id="styled-checkbox-357" type="radio" value="any" name="adress_radio">
+                                <label for="styled-checkbox-1"><span
+                                            class="work_list">Санкт-Петербург - Любой филиал</span></label>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="quiz-slide-4-footer">
                 </div>
             </div>
             <div class="quiz_content-push col-md-3">
-                <div class="content-push-header">
-                    <img src="images/quiz/WhatsApp_Image.png" alt="Директор" class="director_pic">
-                </div>
-                <div class="content-push-main">
-                    <div class="push_description">
-                        <p>+ <br> Бесплатная <br> диагностика <br>подвески</p>
-                        <p>+ <br>Бесплатная <br>компьютерная <br>диагностика</p>
+                <div class="quiz-select-model-wrapper">
+                    <img class="main-mechanic-master" src="images/director-foto1.png" alt="" width="161">
+                    <div class="main-mechanic">
+                        <p class="name">Константин Олегович</p>
+                        <p class="character">Руководитель</p>
                     </div>
-                    <!--  <img src="images/quiz/evakuator.png" alt="" class="content-push-image">-->
-                </div>
-                <div class="content-push-footer">
-                    <div class=""><a href="#" class="quiz_button quiz_button-4 ">далее</a></div>
+                    <div class="quiz-bonus">
+                        <img class="quiz-bonus-wing-1" src="images/pngwing_24.png" alt="" width="29" height="29">
+                        <div class="quiz-bonus-info">
+                            Обслуживаться<br>в Автоцентре ПИК выгодно, <br>Вы получаете бонусы и скидки!
+                        </div>
+                        <img class="quiz-bonus-wing-2" src="images/pngwing_21.png" alt="" width="52" height="56">
+                        <img class="quiz-bonus-wing-3" src="images/pngwing_23.png" alt="" width="29" height="30">
+                    </div>
+
+                        <div class="content-push-footer">
+                            <button class="btn-primary quiz_button quiz_button-1" style="width: 100%;">Далее</button>
+                        </div>
+
                 </div>
             </div>
         </div>
@@ -405,82 +367,77 @@
             </div>
         </div>
         <div class="quiz_content">
-            <div class="quiz_content-main col-md-9">
-                [[-<div class="quiz-title-container">
-                    <h3 class="sub_header-title d-sm-none d-md-block">Расчет стоимости сформирован!</h3>
-                </div>]]
-                <div class="quiz-content-group col-md-12">
-                    <div class="col-md-5  col-12 slide-4-img_wrapper">
-                        <img src="images/quiz/phone.png" alt="">
-                        <div class="push_description d-none d-sm-block d-md-none">
-                            <p>Расчет сфоримрован!</p>
-                            <p>+ Бесплатная <br> диагностика подвески</p>
-                            <p>+ Бесплатная <br>компьютерная диагностика</p>
+            <div class="container">
+                <div class="row">
+                    <div class="quiz_content-main col-md-9">
+                        <div class="quiz-content-group col-md-12 d-flex">
+                            <div class="col-md-5  col-12 slide-4-img_wrapper">
+                                <img src="/images/quiz/phone.png" alt="" style="margin-left: 0;">
+                                <div class="push_description d-none d-sm-block d-md-none">
+                                    <p>Расчет сфоримрован!</p>
+                                    <p>+ Бесплатная <br> диагностика подвески</p>
+                                    <p>+ Бесплатная <br>компьютерная диагностика</p>
 
+                                </div>
+                            </div>
+                            <div class="col-md-7 checkboxes-container ">
+                                <h3>куда прислать расчет</h3>
+                                <ul class="unstyled centered">
+                                    <li>
+                                        <input class="styled-checkbox" id="styled-checkbox-11" type="checkbox"
+                                               value="WhatsApp" name="where_to_send[]">
+                                        <label for="styled-checkbox-11"><span>Пришлите мне цену и PDF в WhatsApp</span></label>
+                                    </li>
+                                    <li>
+                                        <input class="styled-checkbox" id="styled-checkbox-12" type="checkbox"
+                                               value="Viber" name="where_to_send[]">
+                                        <label for="styled-checkbox-12"><span>Пришлите мне цену и PDF в Viber</span></label>
+                                    </li>
+                                    <li>
+                                        <input class="styled-checkbox" id="styled-checkbox-13" type="checkbox"
+                                               value="Пришлите цену в СМС" name="where_to_send[]">
+                                        <label for="styled-checkbox-13"><span>Вышлите мне СМС со стоимостью</span></label>
+                                    </li>
+                                    <li>
+                                        <input class="styled-checkbox" id="styled-checkbox-14" type="checkbox"
+                                               value="Перезвоните мне" name="where_to_send[]">
+                                        <label for="styled-checkbox-14"><span>Перезвоните мне, у меня остались вопросы</span></label>
+                                    </li>
+                                </ul>
+                                <div class="col-md-8 inputGroupContainer inputGroupContainer-top">
+                                    <div>
+                                <span class="input-group-addon"><i
+                                            class="glyphicon glyphicon-earphone"></i></span>
+                                        <span class="slide-4-lable d-block">Введите Ваш номер</span>
+
+                                            <input name="phone" class="form-control" type="tel" required>
+
+                                        <button type="button" id="quiz_submit" class="btn-primary mt-3 mb-3">Получить расчет</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-7 checkboxes-container ">
-                        [[-<h3>куда прислать расчет</h3>
-                        <ul class="unstyled centered">
-                            <li>
-                                <input class="styled-checkbox" id="styled-checkbox-11" type="checkbox"
-                                       value="WhatsApp" name="where_to_send[]"
-                                       [[!+fi.where_to_send:FormItIsChecked=`WhatsApp`]]>
-                                <label for="styled-checkbox-11"><span>Пришлите мне цену и PDF в WhatsApp</span></label>
-                            </li>
-                            <li>
-                                <input class="styled-checkbox" id="styled-checkbox-12" type="checkbox"
-                                       value="Viber" name="where_to_send[]"
-                                       [[!+fi.where_to_send:FormItIsChecked=`Viber`]]>
-                                <label for="styled-checkbox-12"><span>Пришлите мне цену и PDF в Viber</span></label>
-                            </li>
-                            <li>
-                                <input class="styled-checkbox" id="styled-checkbox-13" type="checkbox"
-                                       value="Пришлите цену в СМС" name="where_to_send[]"
-                                       [[!+fi.where_to_send:FormItIsChecked=`Пришлите цену в СМС`]]>
-                                <label for="styled-checkbox-13"><span>Вышлите мне СМС со стоимостью</span></label>
-                            </li>
-                            <li>
-                                <input class="styled-checkbox" id="styled-checkbox-14" type="checkbox"
-                                       value="Перезвоните мне" name="where_to_send[]"
-                                       [[!+fi.where_to_send:FormItIsChecked=`Перезвоните мне`]]>
-                                <label for="styled-checkbox-14"><span>Перезвоните мне, у меня остались вопросы</span></label>
-                            </li>
-                        </ul>]]
-                        <div class="col-md-8 inputGroupContainer inputGroupContainer-top">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i
-                                        class="glyphicon glyphicon-earphone"></i></span>
-                                <span class="slide-4-lable">Введите Ваш номер</span>
-                                <label class="input">
-                                    <input name="phone" class="form-control" type="tel" required>
-                                    <span class="input_mask1">Телефон</span>
-                                </label><input class="fr-name" type="text" name="first-name"
-                                               value=""> <input class="fr-name" type="text" name="form-name" value="Квиз">
-                                <button onclick="yaCounter56306008.reachGoal('knopka2'); return true;"
-                                        type="submit" class="quiz_submit"><img src="/img/magazinebutton.png"
-                                                                               class="input-image">Получить расчет</button>
+                    <div class="quiz_content-push col-md-3">
+                        <div class="quiz-select-model-wrapper">
+                            <img class="main-mechanic-master" src="images/director-foto1.png" alt="" width="161">
+                            <div class="main-mechanic">
+                                <p class="name">Константин Олегович</p>
+                                <p class="character">Руководитель</p>
+                            </div>
+                            <div class="quiz-bonus">
+                                <img class="quiz-bonus-wing-1" src="images/pngwing_24.png" alt="" width="29" height="29">
+                                <div class="quiz-bonus-info">
+                                    Обслуживаться<br>в Автоцентре ПИК выгодно, <br>Вы получаете бонусы и скидки!
+                                </div>
+                                <img class="quiz-bonus-wing-2" src="images/pngwing_21.png" alt="" width="52" height="56">
+                                <img class="quiz-bonus-wing-3" src="images/pngwing_23.png" alt="" width="29" height="30">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="quiz-slide-4-footer">
-                </div>
             </div>
-            <div class="quiz_content-push col-md-3">
-                <div class="content-push-header">
-                    <img src="images/quiz/WhatsApp_Image.png" alt="Директор" class="director_pic">
-                </div>
-                <div class="content-push-main">
-                    <div class="push_description">
-                        <p>+ <br> Бесплатная <br> диагностика <br>подвески</p>
-                        <p>+ <br>Бесплатная <br>компьютерная <br>диагностика</p>
-                    </div>
-                    <img src="images/quiz/evakuator.png" alt="" class="content-push-image">
-                </div>
-                <div class="content-push-footer">
-                </div>
-            </div>
+
         </div>
     </div>
 </form>
@@ -488,3 +445,18 @@
         </div>
     </div>
 </section>
+
+<script>
+    $("#quiz_submit").click(function () {
+        $.ajax({
+            url: '/send_quiz_form.php',
+            method: 'post',
+            dataType: 'html',
+            data: $("#quiz_form").serialize(),
+            success: function(data){
+                console.log(data);
+            }
+        });
+    });
+
+</script>

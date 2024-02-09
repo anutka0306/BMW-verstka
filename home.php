@@ -54,8 +54,8 @@
     <?php include 'elements/short-about-mobile.php'?>
     <?php include 'elements/video-review.php';?>
     <?php include 'elements/check-works.php';?>
-    <?php include 'elements/quiz.php';?>
-    <?php /*include 'elements/quiz1.php';*/?>
+    <?php /*include 'elements/quiz.php';*/?>
+    <?php include 'elements/quiz1.php';?>
     <?php include 'elements/about-service.php';?>
     <?php include 'elements/repare-and-improving.php';?>
     <?php include 'elements/choose-service.php';?>

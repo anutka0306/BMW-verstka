@@ -5272,6 +5272,12 @@ ul.slick-dots {
 .quiz-slide-3 .content-push-image{max-width:340px!important;margin-left:30px;margin-top:-50px;margin-bottom:-30px;}
 .quiz-slide-3  input{width:25px;height:25px;margin:10px 0;}
 .quiz-slide-4 input,.quiz-slide-5 input{width:100%;padding:15px 10px;border-radius:0;border:1px solid #ced3f1;font-weight:600;}
+.quiz-slide-4 input[type="radio"], .quiz-slide-5 input[type="radio"] {
+    width: inherit;
+}
+.model__checked {
+    border: 1px solid #094DD1;
+}
 .quiz-slide-4 textarea,.quiz-slide-5 textarea{border:1px solid #ced3f1;border-radius:5px;width:100%;font-weight:600;box-sizing:border-box;padding-top:20px;padding-left:20px;font-size:18px;line-height:1.8;}
 .quiz-form-group{margin-top:40px;}
 .input-textarea{padding-left:15px;padding-right:20px;}
