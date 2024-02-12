@@ -273,3 +273,16 @@
      console.log(currentHour);
      $(".work-time").text('Работаем сейчас');
  }
+
+ /* Fixed header */
+ let isScroll = 0, // доп. проверка
+     targetScroll = 40; // расстояние до действия / в px
+ $(window).on('scroll', function () {
+     if (isScroll === 0 && $(this).scrollTop() >= targetScroll) {
+         isScroll = 1;
+         $('.header-top').css({'position': 'fixed', 'top': '0px', 'width': '100%', 'z-index': '99999'});
+     } else if (isScroll === 1 && $(this).scrollTop() < targetScroll) {
+         isScroll = 0;
+         $('.header-top').css({'position': 'relative', 'top': '0'});
+     }
+ });

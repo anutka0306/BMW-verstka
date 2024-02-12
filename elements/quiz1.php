@@ -47,7 +47,7 @@
         <div class="quiz_content">
             <div class="quiz_content-main col-md-9">
                 <div class="quiz_selec-wrapper">
-                    <select class="quiz_select-field quiz_select-model  quizselect" name="model"
+                    <select class="quiz_select-field quiz_select-model form-select  quizselect" name="model"
                             data-target=".quiz_select-cabin" id="quiz-selectcabin-id">
                         <?php foreach ($cars as $car): ?>
                             <option value="<?= $car['title']?>" data-src="<?=$car['id']?>"><?= $car['title']?></option>
@@ -112,7 +112,7 @@
         <div class="quiz_content">
             <div class="quiz_content-main col-md-9">
                 <div class="quiz_select-lable-wrapper">
-                    <select class="quiz_select-field quiz_select-abs" name="cabin">
+                    <select class="quiz_select-field quiz_select-abs form-select" name="cabin">
 
                     </select>
 
@@ -298,24 +298,24 @@
                 <div class="quiz-content-group col-md-12">
                     <div class="col-md-12 quiz-adress_col">
                         <ul class="unstyled centered">
-                            <li>
+                            <li class="d-flex">
                                 <input class="adress_radio" id="styled-checkbox-357" type="radio" value="k20" name="adress_radio">
-                                <label for="styled-checkbox-1"><span
+                                <label for="styled-checkbox-1" class="ms-3"><span
                                             class="work_list">Санкт-Петербург - Кушелевская дорога 20<br>917-51-16</span></label>
                             </li>
-                            <li>
+                            <li class="d-flex">
                                 <input class="adress_radio" id="styled-checkbox-357" type="radio" value="b116" name="adress_radio">
-                                <label for="styled-checkbox-1"><span
+                                <label for="styled-checkbox-1" class="ms-3"><span
                                             class="work_list">Санкт-Петербург - ул. Боровая 116<br>8 (812) 932-69-61</span></label>
                             </li>
-                            <li>
+                            <li class="d-flex">
                                 <input class="adress_radio" id="styled-checkbox-357" type="radio" value="to12" name="adress_radio">
-                                <label for="styled-checkbox-1"><span
+                                <label for="styled-checkbox-1" class="ms-3"><span
                                             class="work_list">Санкт-Петербург - дорога на Турухтанные Острова, 12<br>8 (812) 945-75-86</span></label>
                             </li>
-                            <li>
+                            <li class="d-flex">
                                 <input class="adress_radio" id="styled-checkbox-357" type="radio" value="any" name="adress_radio">
-                                <label for="styled-checkbox-1"><span
+                                <label for="styled-checkbox-1" class="ms-3"><span
                                             class="work_list">Санкт-Петербург - Любой филиал</span></label>
                             </li>
                         </ul>

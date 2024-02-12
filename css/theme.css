@@ -493,7 +493,7 @@ body {
 
 .bg-holder-video {
     left: 0;
-    padding: 15px 0 84px;
+    padding: 0 0 84px;
     width: 100%;
     background: #000000;
 }
@@ -5334,7 +5334,9 @@ ul.slick-dots {
 .quiz-slide-4 ul,.quiz-slide-5 ul{padding-bottom:20px;margin-bottom:20px;}
 .checkboxes-container{margin-left:-80px;}
 .slide-4-lable{color:#2a2d47;font-family:Cambria;font-size:19px;font-weight:400;line-height:24px;}
-.quiz-slide-4 .form-control,.quiz-slide-5 .form-control{margin:15px;margin-top:5px;}
+.quiz-slide-4 .form-control,.quiz-slide-5 .form-control{
+    margin:15px 15px 15px 0;
+}
 .quiz-content-group{margin-top:30px;}
 .quiz-slide-5 .quiz_submit{padding:15px 38px 15px 70px;margin-left:15px;}
 .quiz-slide-4 .quiz_submit:after,.quiz-slide-5 .quiz_submit:after{display:none;}
