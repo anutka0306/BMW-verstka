@@ -1,6 +1,6 @@
 <div class="header-slider">
     <div class="bg-holder-video video-container">
-        <video autoplay muted loop>
+        <video autoplay muted loop preload="auto">
             <source src="/images/video/bmw.mp4" type="video/mp4" />
         </video>
         <div class="container">
@@ -77,18 +77,9 @@
                         </div>
                         <select class="select-seria" id="inputGroupSelectSeria">
                             <option>Выберите серию</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>X1</option>
-                            <option>X3</option>
-                            <option>X4</option>
-                            <option>X5</option>
-                            <option>X6</option>
+                            <?php foreach ($cars as $car):?>
+                            <option value="<?= $car['id']?>"><?= $car['title']?></option>
+                            <?php endforeach;?>
 
                         </select>
                     </div>
@@ -121,6 +112,23 @@
             success: function(data){
                 console.log(data);
                 alert(data);
+            }
+        });
+    });
+
+    $("#inputGroupSelectSeria").on("change", function () {
+        let id = $(this).find(":selected").val();
+        $.ajax({
+            url: '/get_carcases.php',
+            method: 'post',
+            dataType: 'json',
+            data: {id: id},
+            success: function (data) {
+                let options = '';
+                $.each(data, function (index, value) {
+                    options += '<option value="' + value.title + '">' + value.title + '</option>';
+                    $("#inputGroupSelectKuzov").html(options);
+                });
             }
         });
     });

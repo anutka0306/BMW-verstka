@@ -1,5 +1,6 @@
 <?php include 'works-data.php'; ?>
 <?php include 'reviews-data.php'; ?>
+<?php include 'cars-data.php'; ?>
 <!DOCTYPE html>
 <html lang="ru">
     <head>

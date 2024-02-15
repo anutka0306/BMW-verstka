@@ -281,8 +281,14 @@
      if (isScroll === 0 && $(this).scrollTop() >= targetScroll) {
          isScroll = 1;
          $('.header-top').css({'position': 'fixed', 'top': '0px', 'width': '100%', 'z-index': '99999'});
+         $('.certificates__header img').css('display', 'none');
+         $('.header__address span').css('display', 'none');
+         $('.work-time').css('display', 'none');
      } else if (isScroll === 1 && $(this).scrollTop() < targetScroll) {
          isScroll = 0;
          $('.header-top').css({'position': 'relative', 'top': '0'});
+         $('.certificates__header img').css('display', 'block');
+         $('.header__address span').css('display', 'block');
+         $('.work-time').css('display', 'block');
      }
  });

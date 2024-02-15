@@ -320,6 +320,23 @@ body {
   position: relative;
   background: #000;
 }
+.calendar-icon {
+    width: 27px;
+    height: 27px;
+    background: url("/images/calendar-icon.svg");
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.header_main__work-time p {
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 .block-burger .navbar-toggler-icon {
     background-image: url("/images/burger-icon.svg");
 }
@@ -423,6 +440,15 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.header__address span{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
 }
 .to12 {
   float: left;
@@ -5908,6 +5934,17 @@ ul.slick-dots {
     margin-bottom: 20px;
 }
 
+@media (max-width: 1400px) {
+    .header-top > .container {
+        max-width: 95%;
+    }
+    .header__address span {
+        font-size: 12px;
+    }
+    .logo .bg-holder {
+        font-size: 16px;
+    }
+}
 
 @media only screen and (max-width:768px){
   .quiz_header-title,.quiz_header-page-nubmber {display:none;}
