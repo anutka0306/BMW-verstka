@@ -21,7 +21,7 @@ if(empty($errors)) {
     $arr = array(
         "Заявка запись на ремонт" => " с формы в модальном окне",
         "Телефон" => $_POST['phone'],
-        "С сайта " => 'https://bmw.pikms.ru',
+        "С сайта " => 'https://bmwpikspb.ru/',
         "Адрес" => $addr,
     );
     getRoistat($_POST['phone'], '', '','', '', $_POST['address']);
@@ -82,23 +82,19 @@ function getRoistat($phone = '', $comment = '', $name = '', $email = '' , $mark 
     $roistatData = array(
         'roistat' => isset($_COOKIE['roistat_visit']) ? $_COOKIE['roistat_visit'] : 'nocookie',
         'key'     => 'ODUxOTY2ZGIxZTAzOWRlNGU0M2IwYTBlOTgzNDczYzI6MTE2MDU4', // Ключ для интеграции с CRM, указывается в настройках интеграции с CRM.
-        'title'   => 'Заявка с формы сайта bmw.pikms.ru', // Название сделки
+        'title'   => 'Заявка с формы сайта https://bmwpikspb.ru/', // Название сделки
         'comment' => $comment . ' — +'.$callbackPhone, // Комментарий к сделке
         'name'    => $name, // Имя клиента
         'email'   => $email, // Email клиента
         'phone'   => $phone, // Номер телефона клиента
-        //'order_creation_method' => '', // Способ создания сделки (необязательный параметр). Укажите то значение, которое затем должно отображаться в аналитике в группировке "Способ создания заявки"
         'is_need_callback' => '1', // Если указано значение '1', на номер клиента будет инициироваться обратный звонок после создания заявки в Roistat (независимо от того, включен ли обратный звонок в Ловце лидов). Если указано значение '0', для данной формы обратный звонок инициироваться не будет (даже если в Ловце лидов включен обратный звонок).
         'callback_phone' => $callbackPhone, // Переопределяет номер, указанный в настройках обратного звонка.
         'sync'    => '1', // Было 0 - то есть была отключена
-        //'is_need_check_order_in_processing' => '1', // Включение проверки заявок на дубли
-        //'is_need_check_order_in_processing_append' => '1', // Если создана дублирующая заявка, в нее будет добавлен комментарий об этом
-        //'is_skip_sending' => '1', // Не отправлять заявку в CRM.
         'fields'  => array(
             'Адрес'   => $addres,
             'Марка'   => $mark,
             'Модель'  => '',
-            'Сайт'    => 'bmw.pikms.ru',
+            'Сайт'    => 'https://bmwpikspb.ru/',
             //'charset'    => 'Windows-1251' // Сервер преобразует значения полей из указанной кодировки в UTF-8.
         ),
     );
