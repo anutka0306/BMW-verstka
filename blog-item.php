@@ -89,7 +89,7 @@
                                    <p><?=$works[$params['id']]['description']?></p>
                                 </div>
                                 <div class="blog-list__buttons">
-                                    <button class="btn btn-primary blog__item_btn"><strong>бесплатная</strong>
+                                    <button class="btn btn-primary blog__item_btn" data-bs-toggle="modal" data-bs-target="#recordNowModal"><strong>бесплатная</strong>
                                         консультация мастера бмв</button>
                                 </div>
                             </div>
