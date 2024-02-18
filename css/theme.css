@@ -5525,6 +5525,9 @@ ul.slick-dots {
 }
 
 /* Modals */
+#recordNowModal {
+    z-index: 999999;
+}
 #recordNowModal .modal-content {
     background: #444;
     padding: 5% 10%;
