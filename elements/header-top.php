@@ -41,7 +41,7 @@
             <div class="address-heading d-none d-md-flex col-md-6">
                 <div class="k20">
                     <p class="text-4 header__metro"><img src="/images/metro-icon.png" alt="">Лесная</p>
-                    <p class="text-4 header__address"><span>Кушелевская дорога 20</span><strong>78129175116</strong></p>
+                    <p class="text-4 header__address"><span>Кушелевская дорога 20</span><strong>8129175116</strong></p>
                     <small class="work-time">График работы с 9:00- 21:00</small>
                 </div>
                 <div class="b116">
